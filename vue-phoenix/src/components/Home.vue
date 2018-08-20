@@ -456,7 +456,7 @@
             <!-- Contact List -->
             <div class="col-sm-4 offset-sm-1 sm-margin-b-50">
               <h3><a href="#">Reforma</a> <span class="text-uppercase margin-l-20">Operaciones</span></h3>
-              <p>AVE PASEO DE LA REFORMA 389 PISO 12, COL CUAUHTEMOC ,MEXICO, CIUDAD DE MEXICO C.P. 06500-CR -06401</p>
+              <p>AV PASEO DE LA REFORMA 389 PISO 12, COL CUAUHTEMOC, MEXICO, CIUDAD DE MEXICO C.P. 06500-CR -06401</p>
               <ul class="list-unstyled contact-list">
                 <li><i class="margin-r-10 color-base icon-call-out"></i> (+52) 55 5259 5228</li>
                 <li><i class="margin-r-10 color-base icon-call-out"></i> (+52) 55 5259 0306</li>

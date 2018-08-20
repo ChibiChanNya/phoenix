@@ -30,8 +30,8 @@
               <!-- Social Media List -->
               <h3>Síguenos en redes sociales</h3>
               <ul class="social-icons" style="padding:0;margin:auto;text-align:center">
-                <a href="https://www.facebook.com/Notecodec/" target="_blank" class="fa fa-facebook"></a>
-                <a href="https://www.linkedin.com/company/25045739/" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://www.facebook.com/Phoenix-Development-691184954595484/" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/phoenixdevelopmentcompany/?hl=es-la" target="_blank" class="fa fa-linkedin"></a>
               </ul>
             </div>
             <!-- End List -->
