@@ -212,7 +212,7 @@
                       <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel"
                            aria-labelledby="headingOne">
                         <div class="panel-body">
-                          <b>Nos enfocamos en crear y explorar caminos que nos lleven a destinos extraordinarios.</b>
+                          <b>Crear desde cero, transformar tu negocio y evolucionar al ritmo de las nuevas tecnologías.</b>
                         </div>
                       </div>
                     </div>
@@ -228,7 +228,7 @@
                       </div>
                       <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="panel-body">
-                          <b>Crear tecnología que impacte positivamente al desarrollo de la sociedad.</b>
+                          <b> Convertir a nuestros clientes en aliados a través del impacto positivo de nuestros servicios en su negocio.</b>
                         </div>
                       </div>
                     </div>

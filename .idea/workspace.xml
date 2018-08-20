@@ -2,30 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="065de75b-3845-4403-9d2a-95c6199dcc43" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/afer-gris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/fitzgeral-gris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/green-gris.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/Logo-C15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/afer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/betco.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/concepto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/editores.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/foreign.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/inc-monterrey-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/la-cienega.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/latitud15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients/logotec.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/style/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/assets/style/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/components/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/components/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/components/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/components/Privacy.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/components/Privacy.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/components/White.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/components/White.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-phoenix/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/router/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -49,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue-phoenix/src/assets/style/layout.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -85,6 +61,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue-phoenix/src/router/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -97,7 +85,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>background</find>
       <find>skylight</find>
       <find>sky-l</find>
       <find>bg-ligh</find>
@@ -127,6 +114,7 @@
       <find>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</find>
       <find>img-responsive</find>
       <find>footer</find>
+      <find>.fa</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;../assets</replace>
@@ -165,7 +153,6 @@
         <option value="$PROJECT_DIR$/vue-phoenix/config/dev.env.js" />
         <option value="$PROJECT_DIR$/vue-phoenix/src/components/Privayc.vue" />
         <option value="$PROJECT_DIR$/vue-phoenix/src/components/Navbar.vue" />
-        <option value="$PROJECT_DIR$/vue-phoenix/src/router/index.js" />
         <option value="$PROJECT_DIR$/vue-phoenix/src/components/White.vue" />
         <option value="$PROJECT_DIR$/vue-phoenix/src/components/Privacy.vue" />
         <option value="$PROJECT_DIR$/vue-phoenix/src/components/Home.vue" />
@@ -174,6 +161,7 @@
         <option value="$PROJECT_DIR$/vue-phoenix/src/App.vue" />
         <option value="$PROJECT_DIR$/vue-phoenix/src/components/Footer.vue" />
         <option value="$PROJECT_DIR$/vue-phoenix/src/assets/style/layout.css" />
+        <option value="$PROJECT_DIR$/vue-phoenix/src/router/index.js" />
       </list>
     </option>
   </component>
@@ -335,7 +323,7 @@
       <workItem from="1534443074957" duration="2962000" />
       <workItem from="1534450136062" duration="1792000" />
       <workItem from="1534542501519" duration="172000" />
-      <workItem from="1534795704031" duration="7394000" />
+      <workItem from="1534795704031" duration="7839000" />
     </task>
     <task id="LOCAL-00001" summary="First pass, Succesful Cloning">
       <created>1533688939829</created>
@@ -421,11 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534798470454</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Privacy Policy, Allies, Cookies">
+      <created>1534807253771</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1534807253771</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39374000" />
+    <option name="totallyTimeSpent" value="39819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,7 +473,8 @@
     <MESSAGE value="PHOENIX TEXT" />
     <MESSAGE value="Changed Email" />
     <MESSAGE value="Footer and Privacy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer and Privacy" />
+    <MESSAGE value="Privacy Policy, Allies, Cookies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Privacy Policy, Allies, Cookies" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/vue-phoenix/src/router/index.js">
@@ -786,16 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-phoenix/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue-phoenix/src/components/White.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -830,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-phoenix/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue-phoenix/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -855,6 +834,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="1271" column="35" selection-start-line="1271" selection-start-column="35" selection-end-line="1271" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-phoenix/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-phoenix/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
