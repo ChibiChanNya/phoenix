@@ -395,36 +395,36 @@
       <div class="content-lg container">
         <h2>Nuestros Aliados</h2>
         <!-- Swiper Clients -->
-        <div class="logo-container">
-          <!--FIRST ROW -->
-          <div class="row">
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/editores.png" alt="C15 Editores logo">
-            </div>
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/foreign.png" alt="Foreign Trade Agency logo">
-            </div>
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/latitud15.png" alt="Latitud 15 Logo">
-            </div>
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/afer.png" alt="Afer Logo">
-            </div>
-          </div>
-          <div class="row">
+        <!--<div class="logo-container">-->
+          <!--&lt;!&ndash;FIRST ROW &ndash;&gt;-->
+          <!--<div class="row">-->
+            <!--<div class="logo col-3">-->
+              <!--<img class="img-responsive" src="../assets/img/clients/editores.png" alt="C15 Editores logo">-->
+            <!--</div>-->
+            <!--<div class="logo col-3">-->
+              <!--<img class="img-responsive" src="../assets/img/clients/foreign.png" alt="Foreign Trade Agency logo">-->
+            <!--</div>-->
+            <!--<div class="logo col-3">-->
+              <!--<img class="img-responsive" src="../assets/img/clients/latitud15.png" alt="Latitud 15 Logo">-->
+            <!--</div>-->
+            <!--<div class="logo col-3">-->
+              <!--<img class="img-responsive" src="../assets/img/clients/afer.png" alt="Afer Logo">-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="row">-->
 
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/Logo-C15.png" alt="Corporativo C15 Logo">
-            </div>
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/concepto.png" alt="Concepto 15 logo">
-            </div>
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/betco.png" alt="Betco Logo">
-            </div>
-          </div>
-          <!-- End Swiper Wrapper -->
-        </div>
+            <!--<div class="logo col-3">-->
+              <!--<img class="img-responsive" src="../assets/img/clients/Logo-C15.png" alt="Corporativo C15 Logo">-->
+            <!--</div>-->
+            <!--<div class="logo col-3">-->
+              <!--<img class="img-responsive" src="../assets/img/clients/concepto.png" alt="Concepto 15 logo">-->
+            <!--</div>-->
+            <!--<div class="logo col-3">-->
+              <!--<img class="img-responsive" src="../assets/img/clients/betco.png" alt="Betco Logo">-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--&lt;!&ndash; End Swiper Wrapper &ndash;&gt;-->
+        <!--</div>-->
         <!-- End Swiper Clients -->
       </div>
       <!-- End Clients -->

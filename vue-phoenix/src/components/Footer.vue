@@ -1,6 +1,6 @@
 <template>
   <!--========== FOOTER ==========-->
-  <div>
+  <div id="global-footer">
 
     <div class="footer">
       <!-- Links -->
@@ -49,7 +49,7 @@
           <div class="col-6 text-right">
             <p class="margin-b-0"> Powered by <span class="phoenix-text">Phoenix</span> <span class="development-text">Development</span>
             </p>
-            <p><router-link to="privacy-policy" >Aviso de privacidad</router-link></p>
+            <p><router-link to="privacy-policy" ><span class="phoenix-text">Aviso de</span> <span class="development-text">privacidad</span></router-link></p>
           </div>
         </div>
         <!--// end row -->
@@ -57,9 +57,6 @@
       <!-- End Copyright -->
     </div>
     <!--========== END FOOTER ==========-->
-
-    <!-- Back To Top -->
-    <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
   </div>
   <!--END PAGE-->
 </template>
@@ -93,5 +90,13 @@
 </script>
 
 <style scoped>
+
+  #global-footer .content{
+    padding: 20px 0;
+  }
+
+  #global-footer a:hover{
+    text-decoration: underline;
+  }
 
 </style>

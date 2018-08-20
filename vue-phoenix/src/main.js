@@ -7,6 +7,7 @@ import vueSmoothScroll from 'vue-smooth-scroll'
 
 Vue.config.productionTip = false;
 Vue.use(vueSmoothScroll);
+Vue.use(require('vue-cookies'));
 
 
 /* eslint-disable no-new */

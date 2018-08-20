@@ -597,74 +597,45 @@ fieldset[disabled] .btn-theme {
 /*--------------------------------------------------
     [Back To Top Theme Button]
 ----------------------------------------------------*/
-.back-to-top {
+#return-to-top {
   position: fixed;
-  right: 10px;
-  bottom: 10px;
-  display: inline-block;
-  z-index: 9;
-  width: 40px;
-  height: 40px;
-  font-size: 11px;
-  font-weight: 400;
-  color: #fff;
-  text-align: center;
-  line-height: 3;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background: #515769;
-  border-radius: 3px;
-  visibility: hidden;
-  opacity: 0;
-  padding: 5px;
-  -webkit-transform: translate3d(0, 50px, 0);
-  -moz-transform: translate3d(0, 50px, 0);
-  transform: translate3d(0, 50px, 0);
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.back-to-top:hover {
-  color: #fff;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.back-to-top:focus, .back-to-top:hover {
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
   text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
-
-/* The Button Becomes Visible */
-.back-to-top.back-to-top-is-visible {
-  visibility: visible;
-  opacity: .6;
-  -webkit-transform: translate3d(0, 0, 0);
-  -moz-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border: none;
+  top: -2px;
 }
-
-.back-to-top.back-to-top-is-visible:hover {
-  opacity: 1;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
 }
-
-/* If the user keeps scrolling down, the button is out of focus and becomes less visible */
-.back-to-top.back-to-top-fade-out {
-  opacity: .4;
-}
-
-.back-to-top.back-to-top-fade-out:hover {
-  opacity: 1;
-  transition-duration: 300ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+#return-to-top:hover i {
+  color: #d83b00;
 }
 
 /*------------------------------------------------------------------
@@ -1296,6 +1267,11 @@ textarea {
 
 /*SOCIAL MEDIA ICONS*/
 /* Style all font awesome icons */
+
+.social-icons .fa:hover{
+  text-decoration: none !important;
+}
+
 .fa {
   padding: 10px;
   font-size: 30px !important;

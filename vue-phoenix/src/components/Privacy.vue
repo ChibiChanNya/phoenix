@@ -5,7 +5,7 @@
       <div class="content-lg container">
         <div class="row">
           <div class="sm-margin-b-30 ">
-            <h2 class="privacy-header">AVISO DE PRIVACIDAD DE NOTE CODE COMPANY S DE RL DE CV</h2>
+            <h2 class="privacy-header">AVISO DE PRIVACIDAD DE PHO CONSULTING SERVICES COMPANY S DE RL DE CV</h2>
           </div>
           <div class="privacy-text">
             <h3>DEFINICIONES</h3>
@@ -49,15 +49,8 @@
               involucren la colocación de una o varias cámaras en espacios privados o públicos, limitadas a la
               supervisión o monitoreo de ese espacio y de las personas que en él se encuentran.</p>
             <h3>IDENTIDAD Y DOMICILIO DEL RESPONSABLE DEL TRATO DE DATOS PERSONALES</h3>
-            <p><i>NOTE CODE COMPANY S. DE R.L. DE C.V.</i>, empresa legalmente constituida por la Leyes Mexicanas, con
-              domicilio en Avenida Javier Barro Sierra, número 540, Torre 1, piso 5, Santa Fé, Delegación Álvaro
-              Obregón, Ciudad de México Código Postal 01210, manifiesta que a través de TOMAS PAZ GONZÁLEZ, es la
-              responsable del trato de los datos personales, del uso y protección de estos, obtenidos como parte del
-              objeto social para el cual se ha constituido y que se encuentra debidamente acreditado en su Acta
-              Constitutiva. TOMAS PAZ GONZÁLEZ, será la persona que en representación de <i>NOTE CODE COMPANY S. DE
-                R.L.DE C.V.</i> que dará trámite y respuesta a las solicitudes de los titulares para el ejercicio de los
-              DERECHOS ARCO, a que se refiere la Ley Federal de Protección de datos personales en posesión de los
-              particulares.</p>
+            <p><i>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</i>, empresa legalmente constituida por la Leyes Mexicanas, con domicilio en Avenida Paseo de la Reforma, número 389 Piso 10, Colonia Cuauhtemoc, Ciudad de México, Código Postal 06500, manifiesta que a través de MARIO TOMAS PAZ GONZÁLEZ, es el responsable del trato de los datos personales, del uso y protección de estos, obtenidos como parte del objeto social para el cual se ha constituido y que se encuentra debidamente acreditado en su Acta Constitutiva. MARIO TOMAS PAZ GONZÁLEZ, será la persona que en representación de PHO CONSULTING SERVICES COMPANY S. DE R.L.DE C.V. que dará trámite y respuesta a las solicitudes de los titulares para el ejercicio de los DERECHOS ARCO, a que se refiere la Ley Federal de Protección de datos personales en posesión de los particulares.
+            </p>
             <h3>FINALIDADES DEL TRATAMIENTO</h3>
             <p>Los datos personales que recabemos de usted, los utilizaremos para las siguientes finalidades, derivadas
               de nuestra relación:</p>
@@ -80,9 +73,8 @@
               </li>
               <li>Análisis, a fin de determinar la eficacia de nuestros productos o servicios.</li>
             </ol>
-            <p><i><i>NOTE CODE COMPANY S. DE R.L. DE C.V.</i></i>, podrá hacer uso de sus datos personales para otras
-              finalidades que sean compatibles y puedan considerarse análogas a las anteriores, sin que para ello se
-              requiera obtener nuevamente el consentimiento del titular.</p>
+            <p><i>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</i>, podrá hacer uso de sus datos personales para otras finalidades que sean compatibles y puedan considerarse análogas a las anteriores, sin que para ello se requiera obtener nuevamente el consentimiento del titular.
+            </p>
             <h3>INFORMACIÓN PROPORCIONADA POR EL TITULAR</h3>
             <p>El titular proporcionara al responsable los siguientes personales:</p>
             <ol>
@@ -99,78 +91,32 @@
             </ol>
 
             <h3>TRANSMISIÓN Y TRASFERENCIA DE DATOS PERSONALES</h3>
-            <p><i>NOTE CODE COMPANY S. DE R.L. DE C.V.</i>, como parte del cumplimiento de su objeto social y de sus
-              actividades, podrá compartir con terceros, nacionales o extranjeros (asociados, socios, afiliados,
-              asesores profesionales o prestadores de servicios) algunos o todos sus datos personales sin requerir
-              autorización por escrito para ello. <i>NOTE CODE COMPANY S. DE R.L. DE C.V.</i> requerirá de su
-              autorización por escrito para compartir con terceros, nacionales o extranjeros algunos o todos sus datos
-              personales, siempre y cuando estos no tengan relación alguna con el objeto social y actividades de <i>NOTE
-                CODE COMPANY S. DE R.L. DE C.V.</i></p>
-            <p><i>NOTE CODE COMPANY S. DE R.L. DE C.V.</i>, se asegurará a través de los recursos administrativos que
-              juzgue convenientes de que los terceros citados en el párrafo que antecede, mantengan las medidas de
-              seguridad, administrativas, técnicas y físicas adecuadas para el resguardo de sus datos personales y de
-              utilizar éstos exclusivamente para los fines para los cuales fueron recabados y de conformidad con el
-              presente Aviso de Privacidad.</p>
+            <p><i>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</i>, como parte del cumplimiento de su objeto social y de sus actividades, podrá compartir con terceros, nacionales o extranjeros (asociados, socios, afiliados, asesores profesionales o prestadores de servicios) algunos o todos sus datos personales sin requerir autorización por escrito para ello. <i>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</i> requerirá de su autorización por escrito para compartir con terceros, nacionales o extranjeros algunos o todos sus datos personales, siempre y cuando estos no tengan relación alguna con el objeto social y actividades de <i>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</i></p>
+            <p><i>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</i>, se asegurará a través de los recursos administrativos que juzgue convenientes de que los terceros citados en el párrafo que antecede, mantengan las medidas de seguridad, administrativas, técnicas y físicas adecuadas para el resguardo de sus datos personales y de utilizar éstos exclusivamente para los fines para los cuales fueron recabados y de conformidad con el presente Aviso de Privacidad.</p>
             <h3>COMUNICACIONES DE SUS DATOS PERSONALES</h3>
-            <p><i>NOTE CODE COMPANY S. DE R.L. DE C.V.</i>, no venderá, cederá o transferirá sus datos personales a
-              terceros ajenos sin su consentimiento previo, sin embargo, no podrá transferir sus datos personales cuando
-              dicha transferencia esté prevista en la Ley, Tratado Internacional o requerimiento judicial.</p>
+            <p><i>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</i>, no venderá, cederá o transferirá sus datos personales a terceros ajenos sin su consentimiento previo, sin embargo, no podrá transferir sus datos personales cuando dicha transferencia esté prevista en la Ley, Tratado Internacional o requerimiento judicial.</p>
             <h3>SEGURIDAD RESPECTO A SUS DATOS PERSONALES</h3>
-            <p><i>NOTE CODE COMPANY S. DE R.L. DE C.V.</i>, ha adoptado las medidas de seguridad administrativas,
-              técnicas y físicas necesarias para proteger sus datos personales contra uso, daño, pérdida, alteración o
-              uso indebido no autorizado.</p>
-            <p>Como medida de seguridad y en apego a lo dispuesto por el artículo 201 del Código Penal Federal y el
-              artículo 646 del Código Civil Federal, <i>NOTE CODE COMPANY S. DE R.L. DE C.V.</i> pone a su disposición
-              una sección a través de la cual como usuario de la información contenida y divulgada a consecuencia de los
-              actos que se celebren entre usted y esta compañía, puede seleccionar y autoidentifcarse en pleno uso de su
-              capacidad de goce y ejercicio como una persona capaz de entender, comprender y responsabilizarse de
-              acceder a los datos o recursos escritos o sonoros contenidos y relacionados con <i>NOTE CODE COMPANY S. DE
-                R.L. DE C.V.</i>, es decir, usted reconoce y acepta que es una persona mayor de 18 años con capacidad de
-              comprender el significado de hechos específicos y determinables relacionados con nuestra empresa.</p>
+            <p><i>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</i>, ha adoptado las medidas de seguridad administrativas, técnicas y físicas necesarias para proteger sus datos personales contra uso, daño, pérdida, alteración o uso indebido no autorizado.</p>
+            <p>Como medida de seguridad y en apego a lo dispuesto por el artículo 201 del Código Penal Federal y el artículo 646 del Código Civil Federal, <i>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</i> pone a su disposición una sección a través de la cual como usuario de la información contenida y divulgada a consecuencia de los actos que se celebren entre usted y esta compañía, puede seleccionar y autoidentifcarse en pleno uso de su capacidad de goce y ejercicio como una persona capaz de entender, comprender y responsabilizarse de acceder a los datos o recursos escritos o sonoros contenidos y relacionados con <i>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</i>, es decir, usted reconoce y acepta que es una persona mayor de 18 años con capacidad de comprender el significado de hechos específicos y determinables relacionados con nuestra empresa.</p>
             <h3>DERECHOS ARCO Y/O REVOCACIÓN DEL CONSENTIMIENTO</h3>
-            <p>Usted como titular o representante de los datos personales materia del presente, podrá ejercer en
-              cualquier momento cualquiera de los derechos de acceso, rectificación, cancelación u oposición (en lo
-              sucesivo derechos ARCO), así como revocar su consentimiento para el tratamiento de sus datos personales
-              enviando un correo al Departamento de Jurídico, a la dirección electrónica: administracion@notecode.mx</p>
-            <p>La petición de acceso, rectificación, cancelación u oposición (derechos ARCO), deberá ser por escrito,
-              requisitando previamente el formato que para tal fin deberá solicitar a la dirección electrónica señalada
-              en el párrafo que antecede, a la que deberá anexar una copia simple de una IDENTIFICACIÓN OFICIAL vigente,
-              en caso de requerir información adicional respecto de estas peticiones le sugerimos contactarse con
-              nosotros al Departamento de Jurídico.</p>
-            <p>Como responsable del manejo de sus datos personales comunicará al titular, en un plazo máximo de veinte
-              días hábiles, contados desde la fecha en que recibió la solicitud de acceso, rectificación, cancelación u
-              oposición la determinación adoptada, a efecto de que, si resulta procedente, se haga efectiva dentro de
-              los quince días siguientes a la fecha en que se comunica la respuesta. Tratándose de acceso a datos
-              personales, procederá la entrega previa acreditación de la identidad del solicitante o bien de su
-              representante legal según corresponda.</p>
-            <p>La obligación de acceso a la información, se dará por cumplida cuando se pongan a disposición del titular
-              los datos personales; o bien, mediante la expedición de copias simples, documentos electrónicos o
-              cualquier otro medio que determine el responsable del aviso de privacidad.</p>
+            <p>Usted como titular o representante de los datos personales materia del presente, podrá ejercer en cualquier momento cualquiera de los derechos de acceso, rectificación, cancelación u oposición (en lo sucesivo derechos ARCO), así como revocar su consentimiento para el tratamiento de sus datos personales enviando un correo al Departamento de Jurídico, a la dirección electrónica: tomas@phoenixdevelopment.mx</p>
+            <p>La petición de acceso, rectificación, cancelación u oposición (derechos ARCO), deberá ser por escrito, requisitando previamente el formato que para tal fin deberá solicitar a la dirección electrónica señalada en el párrafo que antecede, a la que deberá anexar una copia simple de una IDENTIFICACIÓN OFICIAL vigente, en caso de requerir información adicional respecto de estas peticiones le sugerimos contactarse con nosotros al Departamento de Jurídico.</p>
+            <p>Como responsable del manejo de sus datos personales comunicará al titular, en un plazo máximo de veinte días hábiles, contados desde la fecha en que recibió la solicitud de acceso, rectificación, cancelación u oposición la determinación adoptada, a efecto de que, si resulta procedente, se haga efectiva dentro de los quince días siguientes a la fecha en que se comunica la respuesta. Tratándose de acceso a datos personales, procederá la entrega previa acreditación de la identidad del solicitante o bien de su representante legal según corresponda.</p>
+            <p>La obligación de acceso a la información, se dará por cumplida cuando se pongan a disposición del titular los datos personales; o bien, mediante la expedición de copias simples, documentos electrónicos o cualquier otro medio que determine el responsable del aviso de privacidad.</p>
             <h3>LIMITACIÓN Y/O DIVULGACIÓN DE SUS DATOS</h3>
-            <p>Usted podrá limitar el uso o divulgación de sus datos personales enviando una solicitud por escrito,
-              firmada autógrafamente y anexando a ésta copia simple de una IDENTIFICACIÓN OFICIAL vigente a la dirección
-              de correo administracion@notecode.mx</p>
+            <p>Usted podrá limitar el uso o divulgación de sus datos personales enviando una solicitud por escrito, firmada autógrafamente y anexando a ésta copia simple de una IDENTIFICACIÓN OFICIAL vigente a la dirección de correo tomas@phoenixdevelopment.mx .</p>
             <p>Asimismo, puede limitar el uso y divulgación de sus datos personales a través del Registro Público Para
               Evitar Publicidad (REPEP) para evitar publicidad no deseada y que sus datos personales no sean utilizados
               con fines mercadotécnicos o publicitarios, mediante llamadas telefónicas y mensajes de texto si así lo
               desea, a través del sitio <b>repep.profeco.gob.mx</b></p>
             <h3>USO DE COOKIES O TECNOLOGÍAS SIMILARES</h3>
-            <p><i>NOTE CODE COMPANY DE R.L. DE C.V.</i>, le informa que con el objeto de conocer el comportamiento de
-              usted como usuario en relación a nuestro objeto social, implementa e implementará el uso de cookies y
-              otras tecnologías de publicidad para recopilar datos y direcciones IP, ofrecer a través de éstas contenido
-              personalizado, de acuerdo a los servicios y soluciones que brinda nuestra empresa, sin que ello constituya
-              una afectación a su esfera personal ni legal, además de que usted tiene la posibilidad de inhabilitar las
-              citadas herramientas cookies o similares de conformidad con los procedimientos de su navegador de
-              Internet.</p>
+            <p>PHO CONSULTING SERVICES COMPANY DE R.L. DE C.V., le informa que con el objeto de conocer el comportamiento de usted como usuario en relación a nuestro objeto social, implementa e implementará el uso de cookies y otras tecnologías de publicidad para recopilar datos y direcciones IP, ofrecer a través de éstas contenido personalizado, de acuerdo a los servicios y soluciones que brinda nuestra empresa, sin que ello constituya una afectación a su esfera personal ni legal, además de que usted tiene la posibilidad de inhabilitar las citadas herramientas cookies o similares de conformidad con los procedimientos de su navegador de Internet.</p>
             <h3>CAMBIOS AL AVISO DE PRIVACIDAD</h3>
-            <p><i>NOTE CODE COMPANY S. DE R.L. DE C.V.</i>, se reserva el derecho de cambiar, modificar, complementar
-              y/o alterar el presente Aviso de Privacidad, en cualquier momento, en cuyo caso se hará de su conocimiento
-              a través de los medios físicos y electrónicos que para tal fin disponga <i>NOTE CODE COMPANY S. DE R.L. DE
-                C.V.</i> y particularmente a través de <b>www.notecode.mx</b></p>
+            <p><i>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</i>, se reserva el derecho de cambiar, modificar, complementar y/o alterar el presente Aviso de Privacidad, en cualquier momento, en cuyo caso se hará de su conocimiento a través de los medios físicos y electrónicos que para tal fin disponga <i>PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.</i> y particularmente a través de <strong>www.phoenixdevelopment.mx</strong></p>
             <p>Al continuar la navegación en el sitio admito he leído, comprendido y aceptado el AVISO DE PRIVACIDAD que
               antecede, para los efectos legales a que haya lugar, en la Ciudad de México del presente año.</p>
             <br><br>
-            <p><b>Actualizado por última vez el 4 de Diciembre del 2017</b></p>
+            <p><b>Actualizado por última vez el 20 de Agosto del 2018</b></p>
           </div>
           <!-- End List -->
         </div>
@@ -205,7 +151,8 @@
 
 <style scoped>
 
-  .privacy-text p{
+  .privacy-header{
+    text-align: center;
   }
 
 </style>

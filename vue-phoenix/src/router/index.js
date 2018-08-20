@@ -23,6 +23,8 @@ export default new Router({
       path: '/privacy-policy',
       name: 'Privacy Policy',
       component: Privacy
-    }
+    },
   ],
+
+
 })

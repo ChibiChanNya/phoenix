@@ -147,12 +147,12 @@
               <h2>Crea</h2>
               <p>Iniciamos desarrollando la <span class="phoenix-text">Imagen</span> <span class="development-text">Corporativa</span> de tu empresa para crear un negocio de alto impacto.</p>
             </div>
-            <img class="full-width img-responsive wow fadeInUp" src="../assets/img/700x700/01.png"
+            <img class="full-width img-fluid wow fadeInUp" src="../assets/img/700x700/01.png"
                  alt="HTML Code in editor" data-wow-duration=".3" data-wow-delay=".2s">
           </div>
           <div class="masonry-grid-item col-12 col-sm-6 col-md-4">
             <div class="margin-b-60">
-              <img class="full-width img-responsive wow fadeInUp" src="../assets/img/700x700/02.png"
+              <img class="full-width img-fluid wow fadeInUp" src="../assets/img/700x700/02.png"
                    alt="Drawing Board and Graph Paper" data-wow-duration=".3" data-wow-delay=".3s">
             </div>
             <h2>Transforma </h2>
@@ -165,7 +165,7 @@
               <p>Finalmente, evolucionamos tu forma de atraer nuevos clientes diseñando poderosas Estrategias de
                 <span class="phoenix-text">Marketing</span><span class="development-text"> Digital</span>. </p>
             </div>
-            <img class="full-width img-responsive wow fadeInUp" src="../assets/img/700x700/03.png"
+            <img class="full-width img-fluid wow fadeInUp" src="../assets/img/700x700/03.png"
                  alt="Coffee, Mobile Phone and Laptop" data-wow-duration=".3" data-wow-delay=".4s">
           </div>
         </div>
@@ -288,9 +288,8 @@
               <h3>En redes sociales</h3>
               <ul class="social-icons" itemscope itemtype="http://schema.org/Organization" style="padding:0">
                 <link itemprop="url" href="http://www.test.phoneixdevelopment.mx">
-                <a itemprop="sameAs" href="https://www.facebook.com/FutHub/" target="_blank" class="fa fa-facebook"></a>
-                <a itemprop="sameAs" href="https://twitter.com/FutHubcom" target="_blank" class="fa fa-twitter"></a>
-                <a itemprop="sameAs" href="https://www.instagram.com/futhubcom/" target="_blank"
+                <a itemprop="sameAs" href="https://www.facebook.com/Phoenix-Development-691184954595484/" target="_blank" class="fa fa-facebook"></a>
+                <a itemprop="sameAs" href="https://www.instagram.com/phoenixdevelopmentcompany/?hl=es-la" target="_blank"
                    class="fa fa-instagram"></a>
                 <a itemprop="sameAs" href="https://www.youtube.com/channel/UC1jsnt8KyYF3czEDr1cH4cg" target="_blank"
                    class="fa fa-youtube"></a>
@@ -321,7 +320,7 @@
               <!-- Work -->
               <div class="work work-popup-trigger">
                 <div class="work-overlay">
-                  <img class="full-width img-responsive" src="../assets/img/400x471/01.png"
+                  <img class="full-width img-fluid" src="../assets/img/400x471/01.png"
                        alt="Mexican Amateur Soccer Player">
                 </div>
 
@@ -332,7 +331,7 @@
               <!-- Work -->
               <div class="work work-popup-trigger">
                 <div class="work-overlay">
-                  <img class="full-width img-responsive" src="../assets/img/400x300/01.jpg"
+                  <img class="full-width img-fluid" src="../assets/img/400x300/01.jpg"
                        alt="Soccer Coach wearing Futhub Merchandise">
                 </div>
                 <!--<div class="work-popup-overlay">-->
@@ -372,7 +371,7 @@
               <!-- Work -->
               <div class="work work-popup-trigger">
                 <div class="work-overlay">
-                  <img class="full-width img-responsive" src="../assets/img/400x300/02.jpg"
+                  <img class="full-width img-fluid" src="../assets/img/400x300/02.jpg"
                        alt="Mexican Children Soccer Team">
                 </div>
 
@@ -383,7 +382,7 @@
               <!-- Work -->
               <div class="work work-popup-trigger">
                 <div class="work-overlay">
-                  <img class="full-width img-responsive" src="../assets/img/400x300/03.jpg" alt="Child Soccer Training">
+                  <img class="full-width img-fluid" src="../assets/img/400x300/03.jpg" alt="Child Soccer Training">
                 </div>
 
               </div>
@@ -403,30 +402,26 @@
             <!--FIRST ROW -->
             <div class="row">
               <div class="logo col-3">
-                <img class="img-responsive" src="../assets/img/clients/editores.png" alt="C15 Editores logo">
+                <img class="img-fluid" src="../assets/img/clients/afer-gris.png" alt="Logo AFTER Plomeria">
               </div>
               <div class="logo col-3">
-                <img class="img-responsive" src="../assets/img/clients/foreign.png" alt="Foreign Trade Agency logo">
+                <img class="img-fluid" src="../assets/img/clients/fitzgeral-gris.png" alt="Logo Fitzgerald Motorsport Co.">
               </div>
               <div class="logo col-3">
-                <img class="img-responsive" src="../assets/img/clients/latitud15.png" alt="Latitud 15 Logo">
-              </div>
-              <div class="logo col-3">
-                <img class="img-responsive" src="../assets/img/clients/afer.png" alt="Afer Logo">
+                <img class="img-fluid" src="../assets/img/clients/green-gris.png" alt="Logo Green Pit">
               </div>
             </div>
-            <div class="row">
-
-              <div class="logo col-3">
-                <img class="img-responsive" src="../assets/img/clients/Logo-C15.png" alt="Corporativo C15 Logo">
-              </div>
-              <div class="logo col-3">
-                <img class="img-responsive" src="../assets/img/clients/concepto.png" alt="Concepto 15 logo">
-              </div>
-              <div class="logo col-3">
-                <img class="img-responsive" src="../assets/img/clients/betco.png" alt="Betco Logo">
-              </div>
-            </div>
+            <!--<div class="row">-->
+              <!--<div class="logo col-3">-->
+                <!--<img class="img-fluid" src="../assets/img/clients/Logo-C15.png" alt="Corporativo C15 Logo">-->
+              <!--</div>-->
+              <!--<div class="logo col-3">-->
+                <!--<img class="img-fluid" src="../assets/img/clients/concepto.png" alt="Concepto 15 logo">-->
+              <!--</div>-->
+              <!--<div class="logo col-3">-->
+                <!--<img class="img-fluid" src="../assets/img/clients/betco.png" alt="Betco Logo">-->
+              <!--</div>-->
+            <!--</div>-->
             <!-- End Swiper Wrapper -->
           </div>
           <!-- End Swiper Clients -->

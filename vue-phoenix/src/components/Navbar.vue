@@ -9,11 +9,11 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link" v-smooth-scroll href="#">Inicio <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" v-smooth-scroll href="#about">Sobre Nosotros</a>
-        <a class="nav-item nav-link" v-smooth-scroll  href="#work">Trabajo</a>
-        <a class="nav-item nav-link" v-smooth-scroll href="#service">Servicios</a>
-        <a class="nav-item nav-link" v-smooth-scroll href="#contact">Contacto</a>
+        <router-link class="nav-item nav-link" v-smooth-scroll to="/#home">Inicio <span class="sr-only">(current)</span></router-link>
+        <router-link class="nav-item nav-link" v-smooth-scroll to="/#about">Sobre Nosotros</router-link>
+        <router-link class="nav-item nav-link" v-smooth-scroll  to="/#work">Trabajo</router-link>
+        <router-link class="nav-item nav-link" v-smooth-scroll to="/#service">Servicios</router-link>
+        <router-link class="nav-item nav-link" v-smooth-scroll to="/#contact">Contacto</router-link>
       </div>
     </div>
   </nav>
