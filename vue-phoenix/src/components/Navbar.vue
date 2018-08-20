@@ -1,9 +1,9 @@
 <template>
   <!--========== HEADER ==========-->
   <nav class="navbar navbar-expand-lg sticky-top navbar-light">
-    <a class="navbar-brand" href="#">
-      <img src="../assets/img/phonix-logo-reviele-para-espacio-negro-h.png"  class="d-inline-block align-top" alt="Phoenix Logo">
-    </a>
+    <router-link class="navbar-brand" to="/">
+      <img src="../assets/img/logo-horizontal-metal.png"  class="d-inline-block align-top" alt="Phoenix Logo">
+    </router-link>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -34,7 +34,7 @@
       updateScroll() {
         this.scrollPosition = window.scrollY;
         let $nav = $(".navbar");
-        $nav.toggleClass('scrolled', this.scrollPosition > $nav.height()+200);
+        $nav.toggleClass('scrolled', this.scrollPosition > $nav.height()+100);
       },
     },
 
@@ -54,7 +54,7 @@
 <style scoped>
 
   .navbar{
-    padding: 5px 50px;
+    padding: 2px 50px;
     background: transparent;
     transition: background-color 200ms linear;
   }
@@ -65,12 +65,11 @@
 
   .navbar.scrolled{
     background: #343434;
-    box-shadow: 0 0 1px rgba(0,0,0,0.2);
+    box-shadow: 0 0 1px rgba(0,0,0,0.4);
   }
 
-
   .navbar-brand img{
-    max-height: 70px;
+    max-height: 80px;
   }
 
   .nav-item.nav-link {

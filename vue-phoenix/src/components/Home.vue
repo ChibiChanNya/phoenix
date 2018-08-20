@@ -11,7 +11,7 @@
       <!-- Wrapper for slides -->
       <div id="main-carousel" class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="img-fluid" src="../assets/img/1920x1080/05.jpg" alt="Office Space">
+          <img class="img-fluid" src="../assets/img/1920x1080/645.jpg" alt="Office Space">
           <div class="container">
           </div>
         </div>
@@ -172,98 +172,101 @@
         <!-- End Masonry Grid -->
       </div>
 
-      <div class="bg-color-sky-light">
-        <div class="content-lg container">
-          <div class="row">
-            <div class="col-md-5 col-sm-5 md-margin-b-60">
-              <div class="margin-t-50 margin-b-30">
-                <h2>¿Por qué elegirnos?</h2>
-                <p>Todos nuestros proyectos son desarrollados por <span class="phoenix-text">equipos</span><span class="development-text"> multidisciplinarios</span> integrados por
-                  profesionales que aman lo que hacen.</p>
-                <p>Somos expertos en:</p>
-                <ul>
-                  <li><span class="phoenix-text">Diseño y Desarrollo</span><span class="development-text"> Web</span></li>
-                  <li><span class="phoenix-text">Diseño y Desarrollo</span><span class="development-text"> Móvil</span></li>
-                  <li><span class="phoenix-text">Marketing Digital y</span><span class="development-text"> Comunicación</span></li>
-                  <li><span class="phoenix-text">Imagen</span><span class="development-text"> Corporativa</span></li>
-                  <li><span class="phoenix-text">Tecnologías de la</span><span class="development-text"> Información</span></li>
-                  <li><span class="phoenix-text">Innovación en</span><span class="development-text"> Negocios</span></li>
-                </ul>
-                <p>Y aplicamos nuestro conocimiento en cada uno de los proyectos para ofrecer soluciones que aporte
-                  valor a tu negocio.</p>
-                <p>Nuestra metodología para desarrollar proyectos va acompañada de un proceso de consultoría.</p>
+      <div class="section-seperator">
+        <div class="bg-color-sky-light">
+          <div class="content-lg container">
+            <div class="row">
+              <div class="col-md-5 col-sm-5 md-margin-b-60">
+                <div class="margin-t-50 margin-b-30">
+                  <h2>¿Por qué elegirnos?</h2>
+                  <p>Todos nuestros proyectos son desarrollados por <span class="phoenix-text">equipos</span><span class="development-text"> multidisciplinarios</span> integrados por
+                    profesionales que aman lo que hacen.</p>
+                  <p>Somos expertos en:</p>
+                  <ul>
+                    <li><span class="phoenix-text">Diseño y Desarrollo</span><span class="development-text"> Web</span></li>
+                    <li><span class="phoenix-text">Diseño y Desarrollo</span><span class="development-text"> Móvil</span></li>
+                    <li><span class="phoenix-text">Marketing Digital y</span><span class="development-text"> Comunicación</span></li>
+                    <li><span class="phoenix-text">Imagen</span><span class="development-text"> Corporativa</span></li>
+                    <li><span class="phoenix-text">Tecnologías de la</span><span class="development-text"> Información</span></li>
+                    <li><span class="phoenix-text">Innovación en</span><span class="development-text"> Negocios</span></li>
+                  </ul>
+                  <p>Y aplicamos nuestro conocimiento en cada uno de los proyectos para ofrecer soluciones que aporte
+                    valor a tu negocio.</p>
+                  <p>Nuestra metodología para desarrollar proyectos va acompañada de un proceso de consultoría.</p>
+                </div>
+                <!--<a href="#" class="btn-theme btn-theme-sm btn-white-bg text-uppercase">Explore</a>-->
               </div>
-              <!--<a href="#" class="btn-theme btn-theme-sm btn-white-bg text-uppercase">Explore</a>-->
-            </div>
-            <div class="col-md-5 col-sm-7 offset-md-2">
-              <!-- Accordion -->
-              <div class="accordion">
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingOne">
-                      <h4 class="panel-title">
-                        <a class="panel-title-child" role="button" data-toggle="collapse" data-parent="#accordion"
-                           href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Misión
-                        </a>
-                      </h4>
-                    </div>
-                    <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel"
-                         aria-labelledby="headingOne">
-                      <div class="panel-body">
-                        <b>Nos enfocamos en crear y explorar caminos que nos lleven a destinos extraordinarios.</b>
+              <div class="col-md-5 col-sm-7 offset-md-2">
+                <!-- Accordion -->
+                <div class="accordion">
+                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                          <a class="panel-title-child" role="button" data-toggle="collapse" data-parent="#accordion"
+                             href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Misión
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel"
+                           aria-labelledby="headingOne">
+                        <div class="panel-body">
+                          <b>Nos enfocamos en crear y explorar caminos que nos lleven a destinos extraordinarios.</b>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingTwo">
-                      <h4 class="panel-title">
-                        <a class="collapsed panel-title-child" role="button" data-toggle="collapse"
-                           data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
-                           aria-controls="collapseTwo">
-                          Visión
-                        </a>
-                      </h4>
-                    </div>
-                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                      <div class="panel-body">
-                        <b>Crear tecnología que impacte positivamente al desarrollo de la sociedad.</b>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                          <a class="collapsed panel-title-child" role="button" data-toggle="collapse"
+                             data-parent="#accordion" href="#collapseTwo" aria-expanded="false"
+                             aria-controls="collapseTwo">
+                            Visión
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                          <b>Crear tecnología que impacte positivamente al desarrollo de la sociedad.</b>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingThree">
-                      <h4 class="panel-title">
-                        <a class="collapsed panel-title-child" role="button" data-toggle="collapse"
-                           data-parent="#accordion" href="#collapseThree" aria-expanded="false"
-                           aria-controls="collapseThree">
-                          Valores
-                        </a>
-                      </h4>
-                    </div>
-                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
-                         aria-labelledby="headingThree">
-                      <div class="panel-body">
-                        <b>Felicidad:</b> disfrutamos lo que hacemos. No nos vemos haciendo otra cosa que apoyándote a
-                        transformar tu negocio.<br><br>
-                        <b>Evolución:</b> aprendemos todos los días para poder transformar el conocimiento en soluciones
-                        que aporten valor a tu negocio.<br><br>
-                        <b>Impacto:</b> nos enfocamos en resolver los problemas más importantes de tu negocio con
-                        soluciones de alto impacto.<br><br>
-                        <b>Innovación:</b> ofrecemos soluciones tecnológicas únicas e innovadoras que te ayuden a
-                        optimizar los recursos y procesos de tu empresa.<br><br>
-                        <b>Instruir:</b> disfrutamos enseñarte como funciona el mundo tecnológico.<br><br>
+                    <div class="panel panel-default">
+                      <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                          <a class="collapsed panel-title-child" role="button" data-toggle="collapse"
+                             data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                             aria-controls="collapseThree">
+                            Valores
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel"
+                           aria-labelledby="headingThree">
+                        <div class="panel-body">
+                          <b>Felicidad:</b> disfrutamos lo que hacemos. No nos vemos haciendo otra cosa que apoyándote a
+                          transformar tu negocio.<br><br>
+                          <b>Evolución:</b> aprendemos todos los días para poder transformar el conocimiento en soluciones
+                          que aporten valor a tu negocio.<br><br>
+                          <b>Impacto:</b> nos enfocamos en resolver los problemas más importantes de tu negocio con
+                          soluciones de alto impacto.<br><br>
+                          <b>Innovación:</b> ofrecemos soluciones tecnológicas únicas e innovadoras que te ayuden a
+                          optimizar los recursos y procesos de tu empresa.<br><br>
+                          <b>Instruir:</b> disfrutamos enseñarte como funciona el mundo tecnológico.<br><br>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
+                <!-- End Accodrion -->
               </div>
-              <!-- End Accodrion -->
             </div>
+            <!--// end row -->
           </div>
-          <!--// end row -->
         </div>
       </div>
+
     </div>
     <!-- End About -->
 
@@ -284,7 +287,7 @@
               <!-- Social Media List -->
               <h3>En redes sociales</h3>
               <ul class="social-icons" itemscope itemtype="http://schema.org/Organization" style="padding:0">
-                <link itemprop="url" href="http://www.notecode.mx">
+                <link itemprop="url" href="http://www.test.phoneixdevelopment.mx">
                 <a itemprop="sameAs" href="https://www.facebook.com/FutHub/" target="_blank" class="fa fa-facebook"></a>
                 <a itemprop="sameAs" href="https://twitter.com/FutHubcom" target="_blank" class="fa fa-twitter"></a>
                 <a itemprop="sameAs" href="https://www.instagram.com/futhubcom/" target="_blank"
@@ -392,41 +395,44 @@
       </div>
 
       <!-- Clients -->
-      <div class="content-lg container">
-        <h2>Nuestros Aliados</h2>
-        <!-- Swiper Clients -->
-        <div class="logo-container">
-          <!--FIRST ROW -->
-          <div class="row">
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/editores.png" alt="C15 Editores logo">
+      <div class="section-seperator">
+        <div class="content-lg container">
+          <h2>Nuestros Aliados</h2>
+          <!-- Swiper Clients -->
+          <div class="logo-container">
+            <!--FIRST ROW -->
+            <div class="row">
+              <div class="logo col-3">
+                <img class="img-responsive" src="../assets/img/clients/editores.png" alt="C15 Editores logo">
+              </div>
+              <div class="logo col-3">
+                <img class="img-responsive" src="../assets/img/clients/foreign.png" alt="Foreign Trade Agency logo">
+              </div>
+              <div class="logo col-3">
+                <img class="img-responsive" src="../assets/img/clients/latitud15.png" alt="Latitud 15 Logo">
+              </div>
+              <div class="logo col-3">
+                <img class="img-responsive" src="../assets/img/clients/afer.png" alt="Afer Logo">
+              </div>
             </div>
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/foreign.png" alt="Foreign Trade Agency logo">
-            </div>
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/latitud15.png" alt="Latitud 15 Logo">
-            </div>
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/afer.png" alt="Afer Logo">
-            </div>
-          </div>
-          <div class="row">
+            <div class="row">
 
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/Logo-C15.png" alt="Corporativo C15 Logo">
+              <div class="logo col-3">
+                <img class="img-responsive" src="../assets/img/clients/Logo-C15.png" alt="Corporativo C15 Logo">
+              </div>
+              <div class="logo col-3">
+                <img class="img-responsive" src="../assets/img/clients/concepto.png" alt="Concepto 15 logo">
+              </div>
+              <div class="logo col-3">
+                <img class="img-responsive" src="../assets/img/clients/betco.png" alt="Betco Logo">
+              </div>
             </div>
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/concepto.png" alt="Concepto 15 logo">
-            </div>
-            <div class="logo col-3">
-              <img class="img-responsive" src="../assets/img/clients/betco.png" alt="Betco Logo">
-            </div>
+            <!-- End Swiper Wrapper -->
           </div>
-          <!-- End Swiper Wrapper -->
+          <!-- End Swiper Clients -->
         </div>
-        <!-- End Swiper Clients -->
       </div>
+
       <!-- End Clients -->
     </div>
     <!-- End Work -->
@@ -459,7 +465,7 @@
               <ul class="list-unstyled contact-list">
                 <li><i class="margin-r-10 color-base icon-call-out"></i> (+52) 55 5259 5228</li>
                 <li><i class="margin-r-10 color-base icon-call-out"></i> (+52) 55 5259 0306</li>
-                <li><i class="margin-r-10 color-base icon-envelope"></i> tomas@phoenixdevelopment.mx</li>
+                <li><i class="margin-r-10 color-base icon-envelope"></i> contacto@phoenixdevelopment.mx</li>
               </ul>
             </div>
             <!-- End Contact List -->
@@ -474,93 +480,25 @@
     <!-- End Contact -->
     <!--========== END PAGE LAYOUT ==========-->
 
-    <!--========== FOOTER ==========-->
-    <div class="footer">
-      <!-- Links -->
-      <div class="section-seperator">
-        <div class="content-md container">
-          <div class="row">
-            <div class="col-sm-6 offset-sm-1 sm-margin-b-30">
-              <h3>Envíanos un mensaje</h3>
-              <!-- Contact Form -->
-              <form class="contact-form" id="contact-form" v-on:submit.prevent="submit_contact">
-                <div class="form-group">
-                  <input class="form-control" required type="text" title="name" name="name" id="name"
-                         placeholder="Nombre" v-model="contact.name" />
-                  <input class="form-control" required type="email" title="email" name="email" id="email"
-                         placeholder="Dirección de Correo" v-model="contact.mail"/>
-                  <input class="form-control" type="text" title="phone" name="phone" id="phone" placeholder="Teléfono" v-model="contact.phone"/>
-                  <textarea class="form-control" required rows="4" maxlength="255" title="message" name="message"
-                            id="message" placeholder="Mensaje" v-model="contact.message"></textarea>
-                  <button type="submit" class="btn btn-blue">Enviar</button>
-                  <span id="success" class="text-success" style="margin:0 20px"></span>
-                </div>
-              </form>
-              <!-- End Form -->
-            </div>
-            <div class="col-sm-3 offset-sm-1 sm-margin-b-30">
-              <!-- Social Media List -->
-              <h3>Síguenos en redes sociales</h3>
-              <ul class="social-icons" style="padding:0;margin:auto;text-align:center">
-                <a href="https://www.facebook.com/Notecodec/" target="_blank" class="fa fa-facebook"></a>
-                <a href="https://www.linkedin.com/company/25045739/" target="_blank" class="fa fa-linkedin"></a>
-              </ul>
-            </div>
-            <!-- End List -->
-          </div>
-        </div>
-        <!--// end row -->
-      </div>
-      <!-- End Links -->
-
-      <!-- Copyright -->
-      <div class="content container">
-        <div class="row">
-          <div class="col-6">
-          </div>
-          <div class="col-6 text-right">
-            <p class="margin-b-0"> Powered by <span class="phoenix-text">Phoenix</span> <span class="development-text">Development</span></p>
-            <p><a href="./privacy.html">Aviso de privacidad</a></p>
-          </div>
-        </div>
-        <!--// end row -->
-      </div>
-      <!-- End Copyright -->
-    </div>
-    <!--========== END FOOTER ==========-->
-
-    <!-- Back To Top -->
-    <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
   </div>
-  <!--END PAGE-->
 
 
 </template>
 
 <script>
 
-  import { get_test } from './../../utils/mailgun';
 
   export default {
     name: "Home",
 
     data() {
       return {
-        contact:{
-          name: null,
-          email: null,
-          phone: null,
-          message: null,
-        }
+
       }
     },
 
     methods: {
-      submit_contact: function(){
-        // send_contact(this.contact.name, this.contact.email, this.contact.phone, this.contact.message);
-        get_test();
-        return false;
-      }
+
     },
 
     mounted(){
@@ -576,7 +514,7 @@
   @import '../assets/vendor/swiper/css/swiper.min.css';
 
   #home {
-    margin-top: -95px;
+    margin-top: -100px;
   }
 
   #main-carousel .item {
