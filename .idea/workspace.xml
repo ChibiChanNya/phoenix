@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="065de75b-3845-4403-9d2a-95c6199dcc43" name="Default" comment="">
+    <list default="true" id="065de75b-3845-4403-9d2a-95c6199dcc43" name="Default" comment="Animati">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-phoenix/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/components/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/js/components/google-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/js/components/google-map.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/assets/style/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/assets/style/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/components/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-phoenix/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-phoenix/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-phoenix/static/.gitkeep" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,14 +27,47 @@
       <file leaf-file-name="Home.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vue-phoenix/src/components/Home.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="450" column="103" selection-start-line="450" selection-start-column="92" selection-end-line="450" selection-end-column="103" />
+            <state relative-caret-position="285">
+              <caret line="19" column="118" selection-start-line="19" selection-start-column="118" selection-end-line="19" selection-end-column="118" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#GmapMap#0;n#div#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Navbar.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-phoenix/src/components/Navbar.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-phoenix/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+              <folding>
+                <element signature="e#140#161#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue-phoenix/src/assets/style/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="106" column="16" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -35,26 +75,8 @@
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vue-phoenix/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="138" selection-start-line="138" selection-end-line="138" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Footer.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-phoenix/src/components/Footer.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue-phoenix/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
-              <caret line="33" column="72" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
+            <state relative-caret-position="1980">
+              <caret line="133" column="32" lean-forward="true" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -71,25 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>409</find>
-      <find>.panel</find>
-      <find>bg-color</find>
-      <find>#service</find>
-      <find>li{</find>
-      <find>li {</find>
-      <find>services</find>
-      <find>ul li</find>
-      <find>.service</find>
-      <find>:hover</find>
-      <find>phoenix-text</find>
-      <find>contacto</find>
-      <find>favicon</find>
-      <find>box-shadow</find>
-      <find>sectin</find>
-      <find>#app</find>
-      <find>back-to</find>
-      <find>fas</find>
-      <find>to-to</find>
       <find>tecno</find>
       <find>logo</find>
       <find>aliados</find>
@@ -101,6 +104,25 @@
       <find>misi</find>
       <find>facebook</find>
       <find>notecode</find>
+      <find>soccer</find>
+      <find>transfoer</find>
+      <find>FUTHUB</find>
+      <find>byid</find>
+      <find>consol</find>
+      <find>favicon</find>
+      <find>zoom</find>
+      <find>label</find>
+      <find>google</find>
+      <find>createingow</find>
+      <find>midx</find>
+      <find>false,</find>
+      <find>mapTypeI</find>
+      <find>inter</find>
+      <find>/img/logo</find>
+      <find>expl</find>
+      <find>transitio</find>
+      <find>develop</find>
+      <find>devel</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;../assets</replace>
@@ -112,6 +134,8 @@
       <replace>col-</replace>
       <replace>&lt;i&gt;PHO CONSULTING SERVICES COMPANY S. DE R.L. DE C.V.&lt;/i&gt;</replace>
       <replace>img-fluid</replace>
+      <replace>&quot;false&quot;</replace>
+      <replace>/static/img/logo</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -141,13 +165,16 @@
         <option value="$PROJECT_DIR$/vue-phoenix/src/components/Navbar.vue" />
         <option value="$PROJECT_DIR$/vue-phoenix/src/components/White.vue" />
         <option value="$PROJECT_DIR$/vue-phoenix/src/components/Privacy.vue" />
-        <option value="$PROJECT_DIR$/vue-phoenix/src/main.js" />
         <option value="$PROJECT_DIR$/vue-phoenix/src/App.vue" />
-        <option value="$PROJECT_DIR$/vue-phoenix/src/assets/style/layout.css" />
-        <option value="$PROJECT_DIR$/vue-phoenix/src/router/index.js" />
-        <option value="$PROJECT_DIR$/vue-phoenix/src/components/Home.vue" />
-        <option value="$PROJECT_DIR$/vue-phoenix/index.html" />
         <option value="$PROJECT_DIR$/vue-phoenix/src/components/Footer.vue" />
+        <option value="$PROJECT_DIR$/vue-phoenix/src/router/index.js" />
+        <option value="$PROJECT_DIR$/vue-phoenix/static/js/google-map.js" />
+        <option value="$PROJECT_DIR$/vue-phoenix/src/assets/js/components/google-map.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/vue-phoenix/src/main.js" />
+        <option value="$PROJECT_DIR$/vue-phoenix/index.html" />
+        <option value="$PROJECT_DIR$/vue-phoenix/src/assets/style/layout.css" />
+        <option value="$PROJECT_DIR$/vue-phoenix/src/components/Home.vue" />
       </list>
     </option>
   </component>
@@ -194,23 +221,6 @@
               <item name="vue-phoenix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoenix-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoenix-website" type="462c0819:PsiDirectoryNode" />
-              <item name="vue-phoenix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phoenix-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phoenix-website" type="462c0819:PsiDirectoryNode" />
-              <item name="vue-phoenix" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="clients" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="phoenix-website" type="b2602c69:ProjectViewProjectNode" />
@@ -265,19 +275,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients" />
-      <recent name="$PROJECT_DIR$/vue-phoenix/src/assets/img" />
-      <recent name="$PROJECT_DIR$/vue-phoenix/src/assets/img/1920x1080" />
-      <recent name="$PROJECT_DIR$/vue-phoenix/static" />
-      <recent name="$PROJECT_DIR$/vue-phoenix/static/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/vue-phoenix/src/static" />
       <recent name="$PROJECT_DIR$/vue-phoenix/src" />
       <recent name="$PROJECT_DIR$/vue-phoenix/src/assets/vendor" />
       <recent name="$PROJECT_DIR$/vue-phoenix/src/assets" />
       <recent name="$PROJECT_DIR$/vue-phoenix/src/store" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue-phoenix/src/assets/js/components" />
+      <recent name="$PROJECT_DIR$/vue-phoenix/static/js" />
+      <recent name="$PROJECT_DIR$/vue-phoenix/src/assets/img/1920x1080" />
+      <recent name="$PROJECT_DIR$/vue-phoenix/src/assets/img/clients" />
+      <recent name="$PROJECT_DIR$/vue-phoenix/src/assets/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -310,6 +320,8 @@
       <workItem from="1534450136062" duration="1792000" />
       <workItem from="1534542501519" duration="172000" />
       <workItem from="1534795704031" duration="8350000" />
+      <workItem from="1534809278362" duration="197000" />
+      <workItem from="1534878115999" duration="8549000" />
     </task>
     <task id="LOCAL-00001" summary="First pass, Succesful Cloning">
       <created>1533688939829</created>
@@ -416,11 +428,25 @@
       <option name="project" value="LOCAL" />
       <updated>1534808227479</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Changed some social">
+      <created>1534809342420</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1534809342420</updated>
+    </task>
+    <task id="LOCAL-00017" summary="MAPS">
+      <created>1534892719383</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1534892719383</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40330000" />
+    <option name="totallyTimeSpent" value="49076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,16 +459,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23034483" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23034483" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -452,7 +478,28 @@
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23034483" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -475,39 +522,11 @@
     <MESSAGE value="Privacy Policy, Allies, Cookies" />
     <MESSAGE value="Fixed Scroll" />
     <MESSAGE value="Mision Vision" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mision Vision" />
+    <MESSAGE value="Changed some social" />
+    <MESSAGE value="MAPS" />
+    <option name="LAST_COMMIT_MESSAGE" value="MAPS" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue-phoenix/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-phoenix/src/assets/style/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" column="17" selection-start-line="106" selection-start-column="17" selection-end-line="106" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-phoenix/src/components/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5595">
-          <caret line="373" column="22" selection-start-line="373" selection-start-column="22" selection-end-line="373" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue-phoenix/src/components/White.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7815">
@@ -551,10 +570,13 @@
         <state relative-caret-position="6765">
           <caret line="451" column="22" lean-forward="true" selection-start-line="442" selection-start-column="16" selection-end-line="451" selection-end-column="22" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#GmapMap#0;n#div#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -623,10 +645,13 @@
         <state relative-caret-position="345">
           <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#GmapMap#0;n#div#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -664,10 +689,13 @@
         <state relative-caret-position="345">
           <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#GmapMap#0;n#div#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -776,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-phoenix/src/components/Navbar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue-phoenix/src/components/White.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -797,60 +818,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-phoenix/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue-phoenix/src/assets/style/layout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="1271" column="35" selection-start-line="1271" selection-start-column="35" selection-end-line="1271" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue-phoenix/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        <state relative-caret-position="180">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue-phoenix/index.html">
+    <entry file="file://$PROJECT_DIR$/vue-phoenix/static/js/google-map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="33" column="72" selection-start-line="33" selection-start-column="72" selection-end-line="33" selection-end-column="72" />
+        <state relative-caret-position="455">
+          <caret line="91" selection-start-line="91" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-phoenix/src/assets/js/components/google-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="11" selection-start-line="4" selection-start-column="25" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue-phoenix/src/components/Footer.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="33" column="86" selection-start-line="33" selection-start-column="86" selection-end-line="33" selection-end-column="86" />
+        <state relative-caret-position="161">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-phoenix/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+          <folding>
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-phoenix/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue-phoenix/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="138" selection-start-line="138" selection-end-line="138" />
+        <state relative-caret-position="1980">
+          <caret line="133" column="32" lean-forward="true" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-phoenix/src/components/Navbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue-phoenix/src/assets/style/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="106" column="16" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vue-phoenix/src/components/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="450" column="103" selection-start-line="450" selection-start-column="92" selection-end-line="450" selection-end-column="103" />
+        <state relative-caret-position="285">
+          <caret line="19" column="118" selection-start-line="19" selection-start-column="118" selection-end-line="19" selection-end-column="118" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#GmapMap#0;n#div#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

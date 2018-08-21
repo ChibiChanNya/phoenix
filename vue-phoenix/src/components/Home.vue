@@ -13,6 +13,12 @@
         <div class="item active dark-overlay">
           <img class="img-fluid" src="../assets/img/1920x1080/phoenix-bg-compressed.jpg" alt="Office Space">
           <div class="container">
+            <div class="carousel-centered" style="margin-top:20px">
+              <div class="center-text slogan">
+                <h1 style="color: white;  text-shadow: 1px 1px 1px #17bed2;"><i id="create">CREA</i> <br> <i id="transform">TRANSFORMA</i> <br> <i id="evolve">EVOLUCIONA</i></h1>
+              </div>
+              <a href="#service" v-smooth-scroll class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Conócenos</a>
+            </div>
           </div>
         </div>
       </div>
@@ -34,7 +40,7 @@
 
           <div class="row row-space-1 margin-b-2">
             <div class="col-sm-4 sm-margin-b-2">
-              <div class="service" data-height="height">
+              <div class="service" data-height="height" v-vpshow>
                 <div class="service-element">
                   <i class="fa fa-sm fa-file-code-o" aria-hidden="true"></i>
                 </div>
@@ -52,7 +58,7 @@
               </div>
             </div>
             <div class="col-sm-4">
-              <div class="service" data-height="height">
+              <div class="service" data-height="height" v-vpshow>
                 <div class="service-element">
                   <i class="fa fa-sm fa-mobile" aria-hidden="true"></i>
                 </div>
@@ -69,7 +75,7 @@
               </div>
             </div>
             <div class="col-sm-4 sm-margin-b-2">
-              <div class="service" data-height="height">
+              <div class="service" data-height="height" v-vpshow>
                 <div class="service-element">
                   <i class="fa fa-sm fa-line-chart" aria-hidden="true"></i>
                 </div>
@@ -94,7 +100,7 @@
 
           <div class="row row-space-1">
             <div class="col-sm-4 sm-margin-b-2">
-              <div class="service" data-height="height">
+              <div class="service" data-height="height" v-vpshow>
                 <div class="service-element">
                   <i class="fa fa-sm fa-suitcase" aria-hidden="true"></i>
                 </div>
@@ -111,7 +117,7 @@
               </div>
             </div>
             <div class="col-sm-4 sm-margin-b-2">
-              <div class="service" data-height="height">
+              <div class="service" data-height="height" v-vpshow>
                 <div class="service-element">
                   <i class="fa fa-sm fa-slideshare" aria-hidden="true"></i>
                 </div>
@@ -550,6 +556,21 @@
 
     mounted() {
 
+      $( "#create" ).animate({
+        opacity: 1,
+      }, 1200, function() {
+        // Animation complete.
+        $( "#transform" ).animate({
+          opacity: 1,
+        }, 1200, function() {
+          // Animation complete.
+          $( "#evolve" ).animate({
+            opacity: 1,
+          }, 1200, function() {
+            // Animation complete.
+          });
+        });
+      });
     },
 
   }

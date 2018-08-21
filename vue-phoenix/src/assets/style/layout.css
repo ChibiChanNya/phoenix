@@ -1421,3 +1421,16 @@ h2.privacy-header{
 .enter {
   transition: opacity 2s ease;
 }
+
+.before-enter.service{
+  transform: translatey(50px);
+}
+
+.enter.service{
+  transition: opacity 2s ease, transform 0.8s 0.2s ease;
+}
+
+.slogan h1 i{
+  opacity: 0;
+  font-size: 42px;
+}
