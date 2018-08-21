@@ -10,8 +10,8 @@
 
       <!-- Wrapper for slides -->
       <div id="main-carousel" class="carousel-inner" role="listbox">
-        <div class="item active">
-          <img class="img-fluid" src="../assets/img/1920x1080/645.jpg" alt="Office Space">
+        <div class="item active dark-overlay">
+          <img class="img-fluid" src="../assets/img/1920x1080/phoenix-bg-compressed.jpg" alt="Office Space">
           <div class="container">
           </div>
         </div>
@@ -147,12 +147,12 @@
               <h2>Crea</h2>
               <p>Iniciamos desarrollando la <span class="phoenix-text">Imagen</span> <span class="development-text">Corporativa</span> de tu empresa para crear un negocio de alto impacto.</p>
             </div>
-            <img class="full-width img-fluid wow fadeInUp" src="../assets/img/700x700/01.png"
+            <img class="full-width img-fluid wow fadeInUp" v-vpshow src="../assets/img/700x700/02.png"
                  alt="HTML Code in editor" data-wow-duration=".3" data-wow-delay=".2s">
           </div>
           <div class="masonry-grid-item col-12 col-sm-6 col-md-4">
             <div class="margin-b-60">
-              <img class="full-width img-fluid wow fadeInUp" src="../assets/img/700x700/02.png"
+              <img class="full-width img-fluid wow fadeInUp" v-vpshow src="../assets/img/700x700/01.png"
                    alt="Drawing Board and Graph Paper" data-wow-duration=".3" data-wow-delay=".3s">
             </div>
             <h2>Transforma </h2>
@@ -165,7 +165,7 @@
               <p>Finalmente, evolucionamos tu forma de atraer nuevos clientes diseñando poderosas Estrategias de
                 <span class="phoenix-text">Marketing</span><span class="development-text"> Digital</span>. </p>
             </div>
-            <img class="full-width img-fluid wow fadeInUp" src="../assets/img/700x700/03.png"
+            <img class="full-width img-fluid wow fadeInUp" v-vpshow src="../assets/img/700x700/03.png"
                  alt="Coffee, Mobile Phone and Laptop" data-wow-duration=".3" data-wow-delay=".4s">
           </div>
         </div>
@@ -179,8 +179,7 @@
               <div class="col-md-5 col-sm-5 md-margin-b-60">
                 <div class="margin-t-50 margin-b-30">
                   <h2>¿Por qué elegirnos?</h2>
-                  <p>Todos nuestros proyectos son desarrollados por <span class="phoenix-text">equipos</span><span class="development-text"> multidisciplinarios</span> integrados por
-                    profesionales que aman lo que hacen.</p>
+                  <p>Todos nuestros proyectos son desarrollados por <span class="phoenix-text">equipos</span><span class="development-text"> multidisciplinarios</span> integrados por profesionales que aman lo que hacen.</p>
                   <p>Somos expertos en:</p>
                   <ul>
                     <li><span class="phoenix-text">Diseño y Desarrollo</span><span class="development-text"> Web</span></li>
@@ -280,7 +279,7 @@
               <p>FutHub fue reconocida como una de los 100 mejores proyectos de emprendimiento y desarrollo en
                 Latinoamérica durante INC Acelerator 2017 del Tecnologico de Monterrey & Greater Phoenix Economic
                 Council.</p>
-              <p>FUTHUB es una aplicación web de fútbol creada por los fundadores de <span class="phoenix-text">Phoenix</span> <span class="development-text">Development</span> y que busca conectar
+              <p>FUTHUB es una aplicación web de fútbol creada por los fundadores de <span class="phoenix-text">Phoenix</span> <span class="development-text">Development</span> que busca conectar
                 jugadores, entrenadores y clubes de profesionales y amateurs.</p>
             </div>
             <div class="col-sm-4 offset-sm-2">
@@ -306,7 +305,7 @@
               <!-- Work -->
               <div class="work work-popup-trigger">
                 <div class="work-overlay">
-                  <div style="position:relative;height:0;padding-bottom:56.25%">
+                  <div style="position:relative;height:0;padding-bottom:56.25%" v-vpshow>
                     <iframe src="https://www.youtube.com/embed/ae4t6PVBJZI?ecver=2" width="640" height="360"
                             frameborder="0" style="position:absolute;width:100%;height:100%;left:0"
                             allowfullscreen></iframe>
@@ -320,7 +319,7 @@
               <!-- Work -->
               <div class="work work-popup-trigger">
                 <div class="work-overlay">
-                  <img class="full-width img-fluid" src="../assets/img/400x471/01.png"
+                  <img class="full-width img-fluid" v-vpshow src="../assets/img/400x471/01.png"
                        alt="Mexican Amateur Soccer Player">
                 </div>
 
@@ -331,7 +330,7 @@
               <!-- Work -->
               <div class="work work-popup-trigger">
                 <div class="work-overlay">
-                  <img class="full-width img-fluid" src="../assets/img/400x300/01.jpg"
+                  <img class="full-width img-fluid" v-vpshow src="../assets/img/400x300/01.jpg"
                        alt="Soccer Coach wearing Futhub Merchandise">
                 </div>
                 <!--<div class="work-popup-overlay">-->
@@ -371,7 +370,7 @@
               <!-- Work -->
               <div class="work work-popup-trigger">
                 <div class="work-overlay">
-                  <img class="full-width img-fluid" src="../assets/img/400x300/02.jpg"
+                  <img class="full-width img-fluid" v-vpshow src="../assets/img/400x300/02.jpg"
                        alt="Mexican Children Soccer Team">
                 </div>
 
@@ -382,7 +381,7 @@
               <!-- Work -->
               <div class="work work-popup-trigger">
                 <div class="work-overlay">
-                  <img class="full-width img-fluid" src="../assets/img/400x300/03.jpg" alt="Child Soccer Training">
+                  <img class="full-width img-fluid" v-vpshow src="../assets/img/400x300/03.jpg" alt="Child Soccer Training">
                 </div>
 
               </div>
@@ -396,19 +395,22 @@
       <!-- Clients -->
       <div class="section-seperator">
         <div class="content-lg container">
-          <h2>Nuestros Aliados</h2>
+          <h2>Nuestros Clientes</h2>
           <!-- Swiper Clients -->
           <div class="logo-container">
             <!--FIRST ROW -->
             <div class="row">
               <div class="logo col-3">
-                <img class="img-fluid" src="../assets/img/clients/afer-gris.png" alt="Logo AFTER Plomeria">
+                <img class="img-fluid" v-vpshow src="../assets/img/clients/afer-gris.png" alt="Logo AFTER Plomeria">
               </div>
               <div class="logo col-3">
-                <img class="img-fluid" src="../assets/img/clients/fitzgeral-gris.png" alt="Logo Fitzgerald Motorsport Co.">
+                <img class="img-fluid" v-vpshow src="../assets/img/clients/fitzgeral-gris.png" alt="Logo Fitzgerald Motorsport Co.">
               </div>
               <div class="logo col-3">
-                <img class="img-fluid" src="../assets/img/clients/green-gris.png" alt="Logo Green Pit">
+                <img class="img-fluid" v-vpshow src="../assets/img/clients/green-gris.png" alt="Logo Green Pit">
+              </div>
+            <div class="logo col-3">
+                <img class="img-fluid" v-vpshow src="../assets/img/clients/40m2.png" alt="Logo 40M Fitness">
               </div>
             </div>
             <!--<div class="row">-->
@@ -441,22 +443,9 @@
           <h2 style="margin-bottom:30px">Contáctanos</h2>
           <div class="row">
             <!-- Contact List -->
-            <!--<div class="col-sm-4 offset-sm-1 sm-margin-b-50">-->
-              <!--<h3><a href="#">Parks Plaza Santa Fe</a> <span class="text-uppercase margin-l-20">Oficina Principal</span>-->
-              <!--</h3>-->
-              <!--<p>Av. Javier Barros Sierra 540, Torre 1, 5° Piso, Del. Álvaro Obregón, Lomas de Santa Fe, 01210 Ciudad de-->
-                <!--México</p>-->
-              <!--<ul class="list-unstyled contact-list">-->
-                <!--<li><i class="margin-r-10 color-base icon-call-out"></i> (+52) 55 8000 8361</li>-->
-                <!--<li><i class="margin-r-10 color-base icon-envelope"></i> administracion@notecode.mx</li>-->
-              <!--</ul>-->
-            <!--</div>-->
-            <!-- End Contact List -->
-
-            <!-- Contact List -->
             <div class="col-sm-4 offset-sm-1 sm-margin-b-50">
               <h3><a href="#">Reforma</a> <span class="text-uppercase margin-l-20">Operaciones</span></h3>
-              <p>AV PASEO DE LA REFORMA 389 PISO 12, COL CUAUHTEMOC, MEXICO, CIUDAD DE MEXICO C.P. 06500-CR -06401</p>
+              <p>AV PASEO DE LA REFORMA 389 PISO 12, COL CUAUHTEMOC, MEXICO, CIUDAD DE MEXICO C.P. 06500</p>
               <ul class="list-unstyled contact-list">
                 <li><i class="margin-r-10 color-base icon-call-out"></i> (+52) 55 5259 5228</li>
                 <li><i class="margin-r-10 color-base icon-call-out"></i> (+52) 55 5259 0306</li>
@@ -468,20 +457,32 @@
           </div>
           <!--// end row -->
         </div>
+        <!-- Google Map -->
+        <GmapMap v-vpshow
+          :center="center"
+          :zoom="15"
+          map-type-id="roadmap"
+          :options="map_options"
+        style="width: 100%; height: 300px; color: black"
+        >
+          <gmap-info-window :options="infoOptions" :position="infoWindowPos" :opened="infoWinOpen" @closeclick="infoWinOpen=false">
+            Av. Paseo de la Reforma 389 Piso 12, <br> Col. Cuauhtemoc CP 06500, <br> Ciudad de México, México
+          </gmap-info-window>
+
+          <gmap-marker :key="i" v-for="(m,i) in markers" :position="m.position" :clickable="true" @click="toggleInfoWindow(m,i)"></gmap-marker>
+
+        </GmapMap>
       </div>
       <!-- End Contact List -->
 
     </div>
     <!-- End Contact -->
     <!--========== END PAGE LAYOUT ==========-->
-
   </div>
-
 
 </template>
 
 <script>
-
 
   export default {
     name: "Home",
@@ -489,16 +490,67 @@
     data() {
       return {
 
+        center: {lat:19.426495, lng:-99.170212},
+        map_options:{
+          disableDefaultUI : true,
+          styles: [{
+            featureType: "all",
+            stylers: [{
+              saturation: -80
+            }]
+          }, {
+            featureType: "road.arterial",
+            elementType: "geometry",
+            stylers: [{
+              hue: "#00ffee"
+            }, {
+              saturation: 50
+            }]
+          }, {
+            featureType: "poi.business",
+            elementType: "labels",
+            stylers: [{
+              visibility: "off",
+            }]
+          }]
+        },
+        infoWindowPos: {lat:19.426495, lng:-99.170212},
+        infoWinOpen: true,
+        currentMidx: null,
+        //optional: offset infowindow so it visually sits nicely on top of our marker
+        infoOptions: {
+          pixelOffset: {
+            width: 0,
+            height: -35
+          }
+        },
+        markers:[
+          {
+            position: {lat:19.426495, lng:-99.170212},
+          }
+        ]
       }
     },
 
     methods: {
-
+      toggleInfoWindow: function(marker, idx) {
+        this.infoWindowPos = marker.position;
+        this.infoContent = marker.infoText;
+        //check if its the same marker that was selected if yes toggle
+        if (this.currentMidx == idx) {
+          this.infoWinOpen = !this.infoWinOpen;
+        }
+        //if different marker set infowindow to open and reset current marker index
+        else {
+          this.infoWinOpen = true;
+          this.currentMidx = idx;
+        }
+      },
     },
 
-    mounted(){
+    mounted() {
 
-    }
+    },
 
   }
 </script>

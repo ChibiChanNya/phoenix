@@ -1410,3 +1410,14 @@ h2.privacy-header{
 .privacy.header .nav-item-child {
   color:#515769;
 }
+
+
+/* ANIMATIONS */
+/* v-vpshow classes */
+.before-enter {
+  opacity: 0;
+}
+
+.enter {
+  transition: opacity 2s ease;
+}
