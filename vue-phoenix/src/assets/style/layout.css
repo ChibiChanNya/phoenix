@@ -1450,6 +1450,7 @@ h2.privacy-header{
      e.g. background-color, animation, display */
   font-size: 20px;
   background: white;
+  color: white;
 }
 
 .vue-typer {
