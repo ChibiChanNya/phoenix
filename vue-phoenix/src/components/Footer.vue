@@ -20,8 +20,11 @@
                          v-model="contact.phone"/>
                   <textarea class="form-control" required rows="4" maxlength="255" title="message" name="message"
                             id="message" placeholder="Mensaje" v-model="contact.message"></textarea>
-                  <button type="submit" class="btn btn-blue">Enviar</button>
-                  <span id="success" class="text-success" style="margin:0 20px"></span>
+                  <div class="d-flex">
+                    <button id="contact-submit" type="submit" class="btn btn-blue">Enviar</button>
+                    <span id="success" class="text-success" style="margin:0 20px"></span>
+                  </div>
+
                 </div>
               </form>
               <!-- End Form -->
@@ -95,11 +98,15 @@
             message: this.contact.message
           }
         ).then((res) => {
-          alert("MAIL SENT!!");
+          console.log("MAIL GOT SENT");
+          $('#contact-submit').prop('disabled', true);
+          $('#success').html("Tu mensaje fúe enviado exitosamente. Nos pondremos en contacto contigo muy pronto.");
+
         })
           .catch(e => {
             console.error(e);
-          })
+            alert("¡Oops! Sucedió un error registrando tu mensaje. Por favor contáctanos directamente o intenta de nuevo mas tarde.")
+          });
       },
     }
 
@@ -114,6 +121,10 @@
 
   #global-footer a:hover {
     text-decoration: underline;
+  }
+
+  .btn:disabled{
+    cursor:not-allowed;
   }
 
 </style>
