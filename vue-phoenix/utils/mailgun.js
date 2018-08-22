@@ -19,15 +19,14 @@ function send_contact(name, email, phone, message) {
       to: to_address,
       subject: 'Mensaje por formulario de contacto',
       text: "Hola",
-      // text: 'Mensaje Recibido: \n' + 'Nombre: ' + name + ' \n' + 'Email: ' + email + ' \n' + 'Teléfono: ' + phone + ' \n' + 'Mensaje: ' + message + ' \n',
-      html:"Hola!",
-      // "<h2>Mensaje Recibido!</h2>"
-      // + "<ul>"
-      // + "<li><b>Nombre:</b> " + name + "</li>"
-      // + "<li><b>Email:</b> " + email + "</li>"
-      // + "<li><b>Tel:</b> " + phone + "</li>"
-      // + "<li><b>Message:</b> " + message + "</li>"
-      // + "</ul>",
+      text: 'Mensaje Recibido: \n' + 'Nombre: ' + name + ' \n' + 'Email: ' + email + ' \n' + 'Teléfono: ' + phone + ' \n' + 'Mensaje: ' + message + ' \n',
+      html:"<h2>Mensaje Recibido!</h2>"
+      + "<ul>"
+      + "<li><b>Nombre:</b> " + name + "</li>"
+      + "<li><b>Email:</b> " + email + "</li>"
+      + "<li><b>Tel:</b> " + phone + "</li>"
+      + "<li><b>Message:</b> " + message + "</li>"
+      + "</ul>",
     }
   }).then(
     response => {

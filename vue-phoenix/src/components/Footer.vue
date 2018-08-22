@@ -30,8 +30,10 @@
               <!-- Social Media List -->
               <h3>Síguenos en redes sociales</h3>
               <ul class="social-icons" style="padding:0;margin:auto;text-align:center">
-                <a href="https://www.facebook.com/Phoenix-Development-691184954595484/" target="_blank" class="fa fa-facebook"></a>
-                <a href="https://www.instagram.com/phoenixdevelopmentcompany/?hl=es-la" target="_blank" class="fa fa-linkedin"></a>
+                <a href="https://www.facebook.com/Phoenix-Development-691184954595484/" target="_blank"
+                   class="fa fa-facebook"></a>
+                <a href="https://www.instagram.com/phoenixdevelopmentcompany/?hl=es-la" target="_blank"
+                   class="fa fa-linkedin"></a>
               </ul>
             </div>
             <!-- End List -->
@@ -49,7 +51,10 @@
           <div class="col-md-6 text-right">
             <p class="margin-b-0"> Powered by <span class="phoenix-text">Phoenix</span> <span class="development-text">Development</span>
             </p>
-            <p><router-link to="privacy-policy" ><span class="phoenix-text">Aviso de</span> <span class="development-text">privacidad</span></router-link></p>
+            <p>
+              <router-link to="privacy-policy"><span class="phoenix-text">Aviso de</span> <span
+                class="development-text">privacidad</span></router-link>
+            </p>
           </div>
         </div>
         <!--// end row -->
@@ -63,7 +68,7 @@
 
 <script>
 
-  import {get_test} from './../../utils/mailgun';
+  import axios from 'axios';
 
   export default {
     name: "Footer",
@@ -81,21 +86,33 @@
 
     methods: {
       submit_contact: function () {
-        // send_contact(this.contact.name, this.contact.email, this.contact.phone, this.contact.message);
-        get_test();
-        return false;
-      }
-    },
+        console.log("Sending mail...");
+        axios.post(
+          process.env.SERVER_URL + '/contact_mail', {
+            name: this.contact.name,
+            email: this.contact.mail,
+            phone: this.contact.phone,
+            message: this.contact.message
+          }
+        ).then((res) => {
+          alert("MAIL SENT!!");
+        })
+          .catch(e => {
+            console.error(e);
+          })
+      },
+    }
+
   }
 </script>
 
 <style scoped>
 
-  #global-footer .content{
+  #global-footer .content {
     padding: 20px;
   }
 
-  #global-footer a:hover{
+  #global-footer a:hover {
     text-decoration: underline;
   }
 
