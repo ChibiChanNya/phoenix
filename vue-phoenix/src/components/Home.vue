@@ -1,29 +1,17 @@
 <template>
 
   <div id="home">
-    <!--========== SLIDER ==========-->
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <div class="container">
-        <!-- Indicators -->
-        <!---->
-      </div>
+    <!--========== HERO HEADER ==========-->
 
-      <!-- Wrapper for slides -->
-      <div id="main-carousel" class="carousel-inner" role="listbox">
-        <div class="item active dark-overlay">
-          <img class="img-fluid" src="../assets/img/1920x1080/phoenix-bg-compressed.jpg" alt="Office Space">
-          <div class="container">
-            <div class="carousel-centered" style="margin-top:20px">
-              <div class="center-text slogan">
-                <h1 style="color: white;  text-shadow: 1px 1px 1px #17bed2;"><i id="create">CREA</i> <br> <i id="transform">TRANSFORMA</i> <br> <i id="evolve">EVOLUCIONA</i></h1>
-              </div>
-              <a href="#service" v-smooth-scroll class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Conócenos</a>
-            </div>
-          </div>
+    <div id="hero" class="hero">
+      <div class="text-center slogan">
+        <div class="typer-container">
+          <vue-typer :text="['Crea', 'Transforma', 'Evoluciona']" :repeat="Infinity" pre-type-delay="1500" type-delay="150"></vue-typer>
         </div>
+        <a href="#service" v-smooth-scroll class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Conócenos</a>
       </div>
     </div>
-    <!--========== SLIDER ==========-->
+    <!--========== HERO HEADER ==========-->
     <!--========== PAGE LAYOUT ==========-->
     <!-- Service -->
     <div id="service">
@@ -144,14 +132,17 @@
     <!-- About -->
     <div id="about">
       <div class="content-lg container">
-        <h2>Nuestra Innovadora Propuesta “The <span class="phoenix-text">Phoenix</span> <span class="development-text">Cycle</span>”</h2>
+        <h3>Nuestra Innovadora Propuesta “The <span class="phoenix-text">Phoenix</span> <span class="development-text">Cycle</span>”</h3>
+
+
         <!-- Masonry Grid -->
         <div class="masonry-grid row">
           <!--<div class="masonry-grid-sizer col-6 col-sm-6 col-md-1"></div>-->
           <div class="masonry-grid-item col-12 col-sm-6 col-md-4 sm-margin-b-30">
             <div class="margin-b-60">
               <h2>Crea</h2>
-              <p>Iniciamos desarrollando la <span class="phoenix-text">Imagen</span> <span class="development-text">Corporativa</span> de tu empresa para crear un negocio de alto impacto.</p>
+              <p>Iniciamos desarrollando la <span class="phoenix-text">Imagen</span> <span class="development-text">Corporativa</span>
+                de tu empresa para crear un negocio de alto impacto.</p>
             </div>
             <img class="full-width img-fluid wow fadeInUp" v-vpshow src="../assets/img/700x700/02.png"
                  alt="HTML Code in editor" data-wow-duration=".3" data-wow-delay=".2s">
@@ -163,7 +154,8 @@
             </div>
             <h2>Transforma </h2>
             <p>Después, incorporamos las herramientas tecnológicas adecuadas para diferenciarte de la competencia y así
-              transformar tu negocio <span class="phoenix-text">“tradicional”</span> a <span class="development-text">“digital”</span></p>
+              transformar tu negocio <span class="phoenix-text">“tradicional”</span> a <span class="development-text">“digital”</span>
+            </p>
           </div>
           <div class="masonry-grid-item col-12 col-sm-6 col-md-4">
             <div class="margin-t-60 margin-b-60">
@@ -185,15 +177,22 @@
               <div class="col-md-5 col-sm-5 md-margin-b-60">
                 <div class="margin-t-50 margin-b-30">
                   <h2>¿Por qué elegirnos?</h2>
-                  <p>Todos nuestros proyectos son desarrollados por <span class="phoenix-text">equipos</span><span class="development-text"> multidisciplinarios</span> integrados por profesionales que aman lo que hacen.</p>
+                  <p>Todos nuestros proyectos son desarrollados por <span class="phoenix-text">equipos</span><span
+                    class="development-text"> multidisciplinarios</span> integrados por profesionales que aman lo que
+                    hacen.</p>
                   <p>Somos expertos en:</p>
                   <ul>
-                    <li><span class="phoenix-text">Diseño y Desarrollo</span><span class="development-text"> Web</span></li>
-                    <li><span class="phoenix-text">Diseño y Desarrollo</span><span class="development-text"> Móvil</span></li>
-                    <li><span class="phoenix-text">Marketing Digital y</span><span class="development-text"> Comunicación</span></li>
+                    <li><span class="phoenix-text">Diseño y Desarrollo</span><span class="development-text"> Web</span>
+                    </li>
+                    <li><span class="phoenix-text">Diseño y Desarrollo</span><span
+                      class="development-text"> Móvil</span></li>
+                    <li><span class="phoenix-text">Marketing Digital y</span><span class="development-text"> Comunicación</span>
+                    </li>
                     <li><span class="phoenix-text">Imagen</span><span class="development-text"> Corporativa</span></li>
-                    <li><span class="phoenix-text">Tecnologías de la</span><span class="development-text"> Información</span></li>
-                    <li><span class="phoenix-text">Innovación en</span><span class="development-text"> Negocios</span></li>
+                    <li><span class="phoenix-text">Tecnologías de la</span><span
+                      class="development-text"> Información</span></li>
+                    <li><span class="phoenix-text">Innovación en</span><span class="development-text"> Negocios</span>
+                    </li>
                   </ul>
                   <p>Y aplicamos nuestro conocimiento en cada uno de los proyectos para ofrecer soluciones que aporte
                     valor a tu negocio.</p>
@@ -217,7 +216,8 @@
                       <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel"
                            aria-labelledby="headingOne">
                         <div class="panel-body">
-                          <b>Crear desde cero, transformar tu negocio y evolucionar al ritmo de las nuevas tecnologías.</b>
+                          <b>Crear desde cero, transformar tu negocio y evolucionar al ritmo de las nuevas
+                            tecnologías.</b>
                         </div>
                       </div>
                     </div>
@@ -231,9 +231,11 @@
                           </a>
                         </h4>
                       </div>
-                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel"
+                           aria-labelledby="headingTwo">
                         <div class="panel-body">
-                          <b> Convertir a nuestros clientes en aliados a través del impacto positivo de nuestros servicios en su negocio.</b>
+                          <b> Convertir a nuestros clientes en aliados a través del impacto positivo de nuestros
+                            servicios en su negocio.</b>
                         </div>
                       </div>
                     </div>
@@ -252,7 +254,8 @@
                         <div class="panel-body">
                           <b>Felicidad:</b> disfrutamos lo que hacemos. No nos vemos haciendo otra cosa que apoyándote a
                           transformar tu negocio.<br><br>
-                          <b>Evolución:</b> aprendemos todos los días para poder transformar el conocimiento en soluciones
+                          <b>Evolución:</b> aprendemos todos los días para poder transformar el conocimiento en
+                          soluciones
                           que aporten valor a tu negocio.<br><br>
                           <b>Impacto:</b> nos enfocamos en resolver los problemas más importantes de tu negocio con
                           soluciones de alto impacto.<br><br>
@@ -285,7 +288,8 @@
               <p>FutHub fue reconocida como una de los 100 mejores proyectos de emprendimiento y desarrollo en
                 Latinoamérica durante INC Acelerator 2017 del Tecnologico de Monterrey & Greater Phoenix Economic
                 Council.</p>
-              <p>FUTHUB es una aplicación web de fútbol creada por los fundadores de <span class="phoenix-text">Phoenix</span> <span class="development-text">Development</span> que busca conectar
+              <p>FUTHUB es una aplicación web de fútbol creada por los fundadores de <span
+                class="phoenix-text">Phoenix</span> <span class="development-text">Development</span> que busca conectar
                 jugadores, entrenadores y clubes de profesionales y amateurs.</p>
             </div>
             <div class="col-sm-4 offset-sm-2">
@@ -293,8 +297,10 @@
               <h3>En redes sociales</h3>
               <ul class="social-icons" itemscope itemtype="http://schema.org/Organization" style="padding:0">
                 <link itemprop="url" href="http://www.test.phoneixdevelopment.mx">
-                <a itemprop="sameAs" href="https://www.facebook.com/Phoenix-Development-691184954595484/" target="_blank" class="fa fa-facebook"></a>
-                <a itemprop="sameAs" href="https://www.instagram.com/phoenixdevelopmentcompany/?hl=es-la" target="_blank"
+                <a itemprop="sameAs" href="https://www.facebook.com/Phoenix-Development-691184954595484/"
+                   target="_blank" class="fa fa-facebook"></a>
+                <a itemprop="sameAs" href="https://www.instagram.com/phoenixdevelopmentcompany/?hl=es-la"
+                   target="_blank"
                    class="fa fa-instagram"></a>
                 <a itemprop="sameAs" href="https://www.youtube.com/channel/UC1jsnt8KyYF3czEDr1cH4cg" target="_blank"
                    class="fa fa-youtube"></a>
@@ -387,7 +393,8 @@
               <!-- Work -->
               <div class="work work-popup-trigger">
                 <div class="work-overlay">
-                  <img class="full-width img-fluid" v-vpshow src="../assets/img/400x300/03.jpg" alt="Child Soccer Training">
+                  <img class="full-width img-fluid" v-vpshow src="../assets/img/400x300/03.jpg"
+                       alt="Child Soccer Training">
                 </div>
 
               </div>
@@ -410,25 +417,26 @@
                 <img class="img-fluid" v-vpshow src="../assets/img/clients/afer-gris.png" alt="Logo AFTER Plomeria">
               </div>
               <div class="logo col-3">
-                <img class="img-fluid" v-vpshow src="../assets/img/clients/fitzgeral-gris.png" alt="Logo Fitzgerald Motorsport Co.">
+                <img class="img-fluid" v-vpshow src="../assets/img/clients/fitzgeral-gris.png"
+                     alt="Logo Fitzgerald Motorsport Co.">
               </div>
               <div class="logo col-3">
                 <img class="img-fluid" v-vpshow src="../assets/img/clients/green-gris.png" alt="Logo Green Pit">
               </div>
-            <div class="logo col-3">
+              <div class="logo col-3">
                 <img class="img-fluid" v-vpshow src="../assets/img/clients/40m2.png" alt="Logo 40M Fitness">
               </div>
             </div>
             <!--<div class="row">-->
-              <!--<div class="logo col-3">-->
-                <!--<img class="img-fluid" src="../assets/img/clients/Logo-C15.png" alt="Corporativo C15 Logo">-->
-              <!--</div>-->
-              <!--<div class="logo col-3">-->
-                <!--<img class="img-fluid" src="../assets/img/clients/concepto.png" alt="Concepto 15 logo">-->
-              <!--</div>-->
-              <!--<div class="logo col-3">-->
-                <!--<img class="img-fluid" src="../assets/img/clients/betco.png" alt="Betco Logo">-->
-              <!--</div>-->
+            <!--<div class="logo col-3">-->
+            <!--<img class="img-fluid" src="../assets/img/clients/Logo-C15.png" alt="Corporativo C15 Logo">-->
+            <!--</div>-->
+            <!--<div class="logo col-3">-->
+            <!--<img class="img-fluid" src="../assets/img/clients/concepto.png" alt="Concepto 15 logo">-->
+            <!--</div>-->
+            <!--<div class="logo col-3">-->
+            <!--<img class="img-fluid" src="../assets/img/clients/betco.png" alt="Betco Logo">-->
+            <!--</div>-->
             <!--</div>-->
             <!-- End Swiper Wrapper -->
           </div>
@@ -465,17 +473,19 @@
         </div>
         <!-- Google Map -->
         <GmapMap v-vpshow
-          :center="center"
-          :zoom="15"
-          map-type-id="roadmap"
-          :options="map_options"
-        style="width: 100%; height: 300px; color: black"
+                 :center="center"
+                 :zoom="15"
+                 map-type-id="roadmap"
+                 :options="map_options"
+                 style="width: 100%; height: 300px; color: black"
         >
-          <gmap-info-window :options="infoOptions" :position="infoWindowPos" :opened="infoWinOpen" @closeclick="infoWinOpen=false">
+          <gmap-info-window :options="infoOptions" :position="infoWindowPos" :opened="infoWinOpen"
+                            @closeclick="infoWinOpen=false">
             Av. Paseo de la Reforma 389 Piso 12, <br> Col. Cuauhtemoc CP 06500, <br> Ciudad de México, México
           </gmap-info-window>
 
-          <gmap-marker :key="i" v-for="(m,i) in markers" :position="m.position" :clickable="true" @click="toggleInfoWindow(m,i)"></gmap-marker>
+          <gmap-marker :key="i" v-for="(m,i) in markers" :position="m.position" :clickable="true"
+                       @click="toggleInfoWindow(m,i)"></gmap-marker>
 
         </GmapMap>
       </div>
@@ -490,15 +500,19 @@
 
 <script>
 
+  import { VueTyper } from 'vue-typer'
+
   export default {
     name: "Home",
 
     data() {
       return {
 
-        center: {lat:19.426495, lng:-99.170212},
-        map_options:{
-          disableDefaultUI : true,
+        slogan: "A",
+
+        center: {lat: 19.426495, lng: -99.170212},
+        map_options: {
+          disableDefaultUI: true,
           styles: [{
             featureType: "all",
             stylers: [{
@@ -520,7 +534,7 @@
             }]
           }]
         },
-        infoWindowPos: {lat:19.426495, lng:-99.170212},
+        infoWindowPos: {lat: 19.426495, lng: -99.170212},
         infoWinOpen: true,
         currentMidx: null,
         //optional: offset infowindow so it visually sits nicely on top of our marker
@@ -530,16 +544,20 @@
             height: -35
           }
         },
-        markers:[
+        markers: [
           {
-            position: {lat:19.426495, lng:-99.170212},
+            position: {lat: 19.426495, lng: -99.170212},
           }
         ]
       }
     },
 
+    components:{
+      VueTyper,
+    },
+
     methods: {
-      toggleInfoWindow: function(marker, idx) {
+      toggleInfoWindow: function (marker, idx) {
         this.infoWindowPos = marker.position;
         this.infoContent = marker.infoText;
         //check if its the same marker that was selected if yes toggle
@@ -552,25 +570,12 @@
           this.currentMidx = idx;
         }
       },
+
     },
 
     mounted() {
 
-      $( "#create" ).animate({
-        opacity: 1,
-      }, 1200, function() {
-        // Animation complete.
-        $( "#transform" ).animate({
-          opacity: 1,
-        }, 1200, function() {
-          // Animation complete.
-          $( "#evolve" ).animate({
-            opacity: 1,
-          }, 1200, function() {
-            // Animation complete.
-          });
-        });
-      });
+
     },
 
   }
@@ -580,6 +585,22 @@
 
   @import '../assets/style/animate.css';
   @import '../assets/vendor/swiper/css/swiper.min.css';
+
+  .hero {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url('../assets/img/1920x1080/phoenix-bg-compressed.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero .btn-theme {
+    margin: 15px 0;
+  }
 
   #home {
     margin-top: -100px;
@@ -592,6 +613,7 @@
   .form-control:focus {
     box-shadow: 0 0 1px #4097db;
   }
+
 
 
 </style>

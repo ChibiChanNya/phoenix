@@ -20,6 +20,7 @@ export default new Router({
     },
   ],
   scrollBehavior (to, from, savedPosition) {
+    console.log(to, from);
     if (to.name !== from.name && to.hash) {
       return {
         selector: to.hash
@@ -27,7 +28,7 @@ export default new Router({
       }
     }
     else{
-      return { x: 0, y: 0 }
+      return
     }
   }
 

@@ -44,9 +44,9 @@
       <!-- Copyright -->
       <div class="content container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
           </div>
-          <div class="col-6 text-right">
+          <div class="col-md-6 text-right">
             <p class="margin-b-0"> Powered by <span class="phoenix-text">Phoenix</span> <span class="development-text">Development</span>
             </p>
             <p><router-link to="privacy-policy" ><span class="phoenix-text">Aviso de</span> <span class="development-text">privacidad</span></router-link></p>
@@ -92,7 +92,7 @@
 <style scoped>
 
   #global-footer .content{
-    padding: 20px 0;
+    padding: 20px;
   }
 
   #global-footer a:hover{

@@ -2,18 +2,20 @@
   <!--========== HEADER ==========-->
   <nav class="navbar navbar-expand-lg sticky-top navbar-light">
     <router-link class="navbar-brand" to="/">
-      <img src="../assets/img/logo-horizontal-metal.png"  class="d-inline-block align-top" alt="Phoenix Logo">
+      <img src="../assets/img/logo-horizontal-metal.png" class="d-inline-block align-top" alt="Phoenix Logo">
     </router-link>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <router-link class="nav-item nav-link" v-smooth-scroll to="/#home">Inicio <span class="sr-only">(current)</span></router-link>
-        <router-link class="nav-item nav-link" v-smooth-scroll to="/#about">Sobre Nosotros</router-link>
-        <router-link class="nav-item nav-link" v-smooth-scroll  to="/#work">Trabajo</router-link>
-        <router-link class="nav-item nav-link" v-smooth-scroll to="/#service">Servicios</router-link>
-        <router-link class="nav-item nav-link" v-smooth-scroll to="/#contact">Contacto</router-link>
+        <router-link class="nav-item nav-link" v-smooth-scroll to="/#home">Inicio <span class="sr-only">(current)</span>
+        </router-link>
+        <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#about">Sobre Nosotros</router-link>
+        <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#work">Trabajo</router-link>
+        <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#service">Servicios</router-link>
+        <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#contact">Contacto</router-link>
       </div>
     </div>
   </nav>
@@ -24,9 +26,13 @@
   export default {
     name: "Navbar",
 
-    data(){
-      return{
+    data() {
+      return {
         scrollPosition: null,
+        scrollOptions: {
+          duration: 2000,
+          offset: -50
+        }
       }
     },
 
@@ -34,12 +40,17 @@
       updateScroll() {
         this.scrollPosition = window.scrollY;
         let $nav = $(".navbar");
-        $nav.toggleClass('scrolled', this.scrollPosition > $nav.height()+100);
+        $nav.toggleClass('scrolled', this.scrollPosition > $nav.height() + 100);
       },
     },
 
     mounted() {
       window.addEventListener('scroll', this.updateScroll);
+
+      //Close Navbar on Click when Mobile
+      $('.navbar-nav .nav-link').on('click', function(){
+        $('.navbar-toggler').click(); //bootstrap 4.x
+      });
     },
 
     destroy() {
@@ -53,23 +64,42 @@
 
 <style scoped>
 
-  .navbar{
+  .navbar {
     padding: 2px 50px;
     background: transparent;
     transition: background-color 200ms linear;
+    width: 100%;
   }
 
-  .navbar-nav{
+  .navbar-nav {
     padding: 10px;
   }
 
-  .navbar.scrolled{
+
+  .navbar.scrolled {
     background: #343434;
-    box-shadow: 0 0 1px rgba(0,0,0,0.4);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
   }
 
-  .navbar-brand img{
-    max-height: 80px;
+  .navbar-brand img {
+    max-width: 150px;
+  }
+
+  @media (min-width: 1024px) {
+    .navbar-brand img {
+      max-width: none;
+      max-height: 80px;
+    }
+  }
+
+  @media (max-width: 1024px){
+    .sticky-top{
+      position: fixed;
+    }
+
+    .navbar-collapse{
+      background: #343434;
+    }
   }
 
   .nav-item.nav-link {
@@ -86,12 +116,12 @@
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
   }
 
-
-  .navbar.scrolled .nav-item.nav-link{
+  .navbar.scrolled .nav-item.nav-link {
     text-shadow: none;
   }
-  .nav-item.nav-link:hover, .nav-item.nav-link:active{
-    color:white;
+
+  .nav-item.nav-link:hover, .nav-item.nav-link:active {
+    color: white;
     text-shadow: 0 0 1px #17bed2 !important;
   }
 
