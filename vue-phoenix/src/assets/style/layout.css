@@ -1441,13 +1441,26 @@ h2.privacy-header{
 }
 /*Typing Thing */
 .vue-typer .custom.char{
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   text-shadow: 1px 1px 1px #17bed2;
 }
 .custom.caret {
   /* Styles for the caret
      e.g. background-color, animation, display */
-  font-size: 30px;
+  font-size: 20px;
   background: white;
+}
+
+.vue-typer {
+  white-space: pre;
+}
+
+@media(min-width: 1024px){
+  .vue-typer .custom.char{
+    font-size: 40px;
+  }
+  .custom.cater{
+    font-size: 30px;
+  }
 }

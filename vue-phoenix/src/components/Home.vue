@@ -6,9 +6,9 @@
     <div id="hero" class="hero">
       <div class="text-center slogan">
         <div class="typer-container">
-          <vue-typer :text="['Crea', 'Transforma', 'Evoluciona']" :repeat="Infinity" pre-type-delay="1500" type-delay="150"></vue-typer>
+          <vue-typer :text='"Crea \n Transforma \n Evoluciona"' :repeat="0" pre-type-delay="1500" type-delay="150"></vue-typer>
         </div>
-        <a href="#service" v-smooth-scroll class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Conócenos</a>
+        <a href="#service" v-smooth-scroll="scrollOptions" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Conócenos</a>
       </div>
     </div>
     <!--========== HERO HEADER ==========-->
@@ -508,7 +508,10 @@
     data() {
       return {
 
-        slogan: "A",
+        scrollOptions: {
+          duration: 2000,
+          offset: -50
+        },
 
         center: {lat: 19.426495, lng: -99.170212},
         map_options: {
@@ -596,6 +599,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  @media(max-width: 1024px){
+    .slogan{
+      margin-top: 30px;
+    }
   }
 
   .hero .btn-theme {
