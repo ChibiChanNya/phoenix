@@ -27,7 +27,7 @@ app.use(express.static(__dirname + '/js'));
 
 // Send a message to the specified email address when you navigate to /submit/someaddr@email.com
 // The index redirects here
-app.post('/contact_mail', function (req, res) {
+app.post('/server/contact_mail', function (req, res) {
 
   console.log("Wooo", req.body);
 
