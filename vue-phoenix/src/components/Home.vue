@@ -296,10 +296,10 @@
               <!-- Social Media List -->
               <h3>En redes sociales</h3>
               <ul class="social-icons" itemscope itemtype="http://schema.org/Organization" style="padding:0">
-                <link itemprop="url" href="http://www.test.phoneixdevelopment.mx">
-                <a itemprop="sameAs" href="https://www.facebook.com/Phoenix-Development-691184954595484/"
+                <link itemprop="url" href="http://www.futhub.com">
+                <a itemprop="sameAs" href="https://www.facebook.com/FutHub/"
                    target="_blank" class="fa fa-facebook"></a>
-                <a itemprop="sameAs" href="https://www.instagram.com/phoenixdevelopmentcompany/?hl=es-la"
+                <a itemprop="sameAs" href="https://www.instagram.com/futhub/?hl=es-la"
                    target="_blank"
                    class="fa fa-instagram"></a>
                 <a itemprop="sameAs" href="https://www.youtube.com/channel/UC1jsnt8KyYF3czEDr1cH4cg" target="_blank"
