@@ -461,8 +461,8 @@
               <h3><a href="#">Reforma</a> <span class="text-uppercase margin-l-20">Operaciones</span></h3>
               <p>AV PASEO DE LA REFORMA 389 PISO 10, COL CUAUHTEMOC, MEXICO, CIUDAD DE MEXICO C.P. 06500</p>
               <ul class="list-unstyled contact-list">
-                <li><i class="margin-r-10 color-base icon-call-out"></i> (+52) 55 5259 5228</li>
-                <li><i class="margin-r-10 color-base icon-call-out"></i> (+52) 55 5259 0306</li>
+                <li><i class="margin-r-10 color-base icon-call-out"></i> (+52) 5980 3626</li>
+                <!--<li><i class="margin-r-10 color-base icon-call-out"></i> (+52) 55 5259 0306</li>-->
                 <li><i class="margin-r-10 color-base icon-envelope"></i> contacto@phoenixdevelopment.mx</li>
               </ul>
             </div>
@@ -481,7 +481,7 @@
         >
           <gmap-info-window :options="infoOptions" :position="infoWindowPos" :opened="infoWinOpen"
                             @closeclick="infoWinOpen=false">
-            Av. Paseo de la Reforma 389 Piso 12, <br> Col. Cuauhtemoc CP 06500, <br> Ciudad de México, México
+            Av. Paseo de la Reforma 389 Piso 10, <br> Col. Cuauhtemoc CP 06500, <br> Ciudad de México, México
           </gmap-info-window>
 
           <gmap-marker :key="i" v-for="(m,i) in markers" :position="m.position" :clickable="true"

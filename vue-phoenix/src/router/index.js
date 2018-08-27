@@ -24,11 +24,12 @@ export default new Router({
     if (to.name !== from.name && to.hash) {
       return {
         selector: to.hash
-        // , offset: { x: 0, y: 10 }
       }
     }
     else{
-      return
+      return{
+        x: 0, y: 0
+      }
     }
   }
 

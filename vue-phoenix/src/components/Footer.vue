@@ -36,7 +36,7 @@
                 <a href="https://www.facebook.com/Phoenix-Development-691184954595484/" target="_blank"
                    class="fa fa-facebook"></a>
                 <a href="https://www.instagram.com/phoenixdevelopmentcompany/?hl=es-la" target="_blank"
-                   class="fa fa-linkedin"></a>
+                   class="fa fa-instagram"></a>
               </ul>
             </div>
             <!-- End List -->

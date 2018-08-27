@@ -13,7 +13,7 @@
         <router-link class="nav-item nav-link" v-smooth-scroll to="/#home">Inicio <span class="sr-only">(current)</span>
         </router-link>
         <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#about">Sobre Nosotros</router-link>
-        <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#work">Trabajo</router-link>
+        <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#work">Proyectos</router-link>
         <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#service">Servicios</router-link>
         <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#contact">Contacto</router-link>
       </div>
