@@ -299,7 +299,7 @@
                 <link itemprop="url" href="http://www.futhub.com">
                 <a itemprop="sameAs" href="https://www.facebook.com/FutHub/"
                    target="_blank" class="fa fa-facebook"></a>
-                <a itemprop="sameAs" href="https://www.instagram.com/futhub/?hl=es-la"
+                <a itemprop="sameAs" href="https://www.instagram.com/futhubcom/?hl=es-la"
                    target="_blank"
                    class="fa fa-instagram"></a>
                 <a itemprop="sameAs" href="https://www.youtube.com/channel/UC1jsnt8KyYF3czEDr1cH4cg" target="_blank"
