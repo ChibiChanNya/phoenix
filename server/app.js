@@ -72,4 +72,4 @@ app.post('/server/contact_mail', function (req, res) {
 });
 
 console.log("Server running on localhost:3030");
-app.listen(3030);
+app.listen(3010);
