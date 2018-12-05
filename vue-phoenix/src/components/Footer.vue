@@ -33,9 +33,9 @@
               <!-- Social Media List -->
               <h3>Síguenos en redes sociales</h3>
               <ul class="social-icons" style="padding:0;margin:auto;text-align:center">
-                <a href="https://www.facebook.com/Phoenix-Development-691184954595484/" target="_blank"
+                <a @click="socialClick('facebook')" href="https://www.facebook.com/Phoenix-Development-691184954595484/" target="_blank"
                    class="fa fa-facebook"></a>
-                <a href="https://www.instagram.com/phoenixdevelopmentcompany/?hl=es-la" target="_blank"
+                <a @click="socialClick('instagram')" href="https://www.instagram.com/phoenixdevelopmentcompany/?hl=es-la" target="_blank"
                    class="fa fa-instagram"></a>
               </ul>
             </div>
@@ -90,7 +90,9 @@
     methods: {
       submit_contact: function () {
           fbq('track', 'contact');
-          console.log("Sending mail...");
+          ga('send', 'event', 'Contact', 'sent');
+
+        console.log("Sending mail...");
         axios.post(
           process.env.SERVER_URL + '/contact_mail', {
             name: this.contact.name,
@@ -109,6 +111,14 @@
             alert("¡Oops! Sucedió un error registrando tu mensaje. Por favor contáctanos directamente o intenta de nuevo mas tarde.")
           });
       },
+      socialClick(type){
+        ga('send', 'event', {
+          eventCategory: 'Social Network',
+          eventAction: 'click',
+          eventLabel: type,
+        });
+
+      }
     }
 
   }

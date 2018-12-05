@@ -46,6 +46,7 @@
 
     trackLead(){
       fbq('track', 'Lead');
+      ga('send', 'event', 'Navbar Link', 'click', 'Contact');
     },
 
     mounted() {
