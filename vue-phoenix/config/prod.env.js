@@ -1,5 +1,5 @@
 'use strict';
 module.exports = {
   NODE_ENV: '"production"',
-  SERVER_URL: '"http://phoenixdevelopment.mx/server"'
+  SERVER_URL: '"https://phoenixdevelopment.mx/server"'
 };

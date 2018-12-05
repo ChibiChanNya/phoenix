@@ -15,7 +15,7 @@
         <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#about">Sobre Nosotros</router-link>
         <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#work">Proyectos</router-link>
         <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#service">Servicios</router-link>
-        <router-link class="nav-item nav-link" @click="trackLead()" v-smooth-scroll="scrollOptions" to="/#contact">Contacto</router-link>
+        <router-link class="nav-item nav-link" @click="trackLead" v-smooth-scroll="scrollOptions" to="/#contact">Contacto</router-link>
       </div>
     </div>
   </nav>
