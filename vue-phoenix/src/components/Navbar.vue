@@ -38,12 +38,10 @@
 
     methods: {
       updateScroll() {
-        if($(window).width() < 1024){
           this.scrollPosition = window.scrollY;
           let $nav = $(".navbar");
           $nav.toggleClass('scrolled', this.scrollPosition > $nav.height() + 100);
         }
-      },
     },
 
     mounted() {
