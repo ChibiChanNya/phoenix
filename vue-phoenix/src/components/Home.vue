@@ -6,7 +6,7 @@
     <div id="hero" class="hero">
       <div class="text-center slogan">
         <div class="typer-container">
-          <vue-typer :text='"Crea \n Transforma \n Evoluciona"' :repeat="0" pre-type-delay="1500" type-delay="150"></vue-typer>
+          <vue-typer :text='"Crea \n Transforma \n Evoluciona"' :repeat=0 :pre-type-delay=1500 :type-delay=150></vue-typer>
         </div>
         <a href="#service" v-smooth-scroll="scrollOptions" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Conócenos</a>
       </div>
@@ -132,8 +132,7 @@
     <!-- About -->
     <div id="about">
       <div class="content-lg container">
-        <h3>Nuestra Innovadora Propuesta “The <span class="phoenix-text">Phoenix</span> <span class="development-text">Cycle</span>”</h3>
-
+        <h3>Nuestra Innovadora Propuesta:<br class="mobile-only"> “The <span class="phoenix-text">Phoenix</span> <span class="development-text">Cycle</span>”</h3>
 
         <!-- Masonry Grid -->
         <div class="masonry-grid row">
@@ -596,6 +595,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 30px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -621,6 +621,12 @@
 
   .form-control:focus {
     box-shadow: 0 0 1px #4097db;
+  }
+
+  @media(min-width:900px){
+    .mobile-only{
+      display:none;
+    }
   }
 
 

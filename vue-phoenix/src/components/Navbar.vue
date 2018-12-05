@@ -38,9 +38,11 @@
 
     methods: {
       updateScroll() {
-        this.scrollPosition = window.scrollY;
-        let $nav = $(".navbar");
-        $nav.toggleClass('scrolled', this.scrollPosition > $nav.height() + 100);
+        if($(window).width() < 1024){
+          this.scrollPosition = window.scrollY;
+          let $nav = $(".navbar");
+          $nav.toggleClass('scrolled', this.scrollPosition > $nav.height() + 100);
+        }
       },
     },
 
@@ -49,7 +51,10 @@
 
       //Close Navbar on Click when Mobile
       $('.navbar-nav .nav-link').on('click', function(){
-        $('.navbar-toggler').click(); //bootstrap 4.x
+        if($(window).width() < 1024) {
+
+          $('.navbar-toggler').click(); //bootstrap 4.x
+        }
       });
     },
 

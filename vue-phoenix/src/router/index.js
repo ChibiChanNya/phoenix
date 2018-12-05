@@ -19,20 +19,4 @@ export default new Router({
       component: Privacy
     },
   ],
-  scrollBehavior (to, from, savedPosition) {
-    console.log(to, from);
-    if (to.name !== from.name && to.hash) {
-      return {
-        selector: to.hash
-      }
-    }
-    else{
-      return{
-        x: 0, y: 0
-      }
-    }
-  }
-
-
-
 })
