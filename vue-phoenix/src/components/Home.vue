@@ -294,7 +294,7 @@
             <div class="col-sm-4 offset-sm-2">
               <!-- Social Media List -->
               <h3>En redes sociales</h3>
-              <ul class="social-icons" itemscope itemtype="http://schema.org/Organization" style="padding:0">
+              <ul class="social-icons" itemscope itemtype="https://schema.org/Organization" style="padding:0">
                 <link itemprop="url" href="http://www.futhub.com">
                 <a itemprop="sameAs" href="https://www.facebook.com/FutHub/"
                    target="_blank" class="fa fa-facebook"></a>
