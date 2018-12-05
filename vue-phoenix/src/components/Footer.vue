@@ -89,7 +89,8 @@
 
     methods: {
       submit_contact: function () {
-        console.log("Sending mail...");
+          fbq('track', 'contact');
+          console.log("Sending mail...");
         axios.post(
           process.env.SERVER_URL + '/contact_mail', {
             name: this.contact.name,
