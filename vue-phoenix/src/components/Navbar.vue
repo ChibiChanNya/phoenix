@@ -35,7 +35,6 @@
         }
       }
     },
-
     methods: {
       updateScroll() {
           this.scrollPosition = window.scrollY;
