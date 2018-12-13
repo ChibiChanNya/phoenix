@@ -572,13 +572,9 @@
           this.currentMidx = idx;
         }
       },
-
-
-
     },
 
     mounted() {
-
 
     },
 

@@ -15,7 +15,7 @@
         <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#about">Sobre Nosotros</router-link>
         <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#work">Proyectos</router-link>
         <router-link class="nav-item nav-link" v-smooth-scroll="scrollOptions" to="/#service">Servicios</router-link>
-        <router-link class="nav-item nav-link" @click="trackLead" v-smooth-scroll="scrollOptions" to="/#contact">Contacto</router-link>
+        <router-link class="nav-item nav-link" @click="trackLead()" v-smooth-scroll="scrollOptions" to="/#contact">Contacto</router-link>
       </div>
     </div>
   </nav>
@@ -30,7 +30,7 @@
       return {
         scrollPosition: null,
         scrollOptions: {
-          duration: 2000,
+          duration: 1500,
           offset: -50
         }
       }
@@ -41,13 +41,15 @@
           this.scrollPosition = window.scrollY;
           let $nav = $(".navbar");
           $nav.toggleClass('scrolled', this.scrollPosition > $nav.height() + 100);
-        }
+        },
+
+      trackLead(){
+        fbq('track', 'Lead');
+        ga('send', 'event', 'Navbar Link', 'click', 'Contact');
+      },
     },
 
-    trackLead(){
-      fbq('track', 'Lead');
-      ga('send', 'event', 'Navbar Link', 'click', 'Contact');
-    },
+
 
     mounted() {
       window.addEventListener('scroll', this.updateScroll);

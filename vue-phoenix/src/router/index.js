@@ -19,4 +19,17 @@ export default new Router({
       component: Privacy
     },
   ],
+  scrollBehavior (to, from, savedPosition) {
+    console.log(to,from);
+    if(to.name !== from.name){
+      if(to.hash){
+        return { selector: to.hash, offset: { x: 0, y: 50 } } // scroll to the element
+      }
+      else{
+        return { x: 0, y: 0 }
+
+      }
+    }
+  }
+
 })
