@@ -1465,3 +1465,17 @@ h2.privacy-header{
     font-size: 30px;
   }
 }
+
+h3.projects-title{
+  margin-top:0;
+  font-size: 2em;
+  text-decoration: underline;
+}
+div.projects-desc{
+  margin-top:7px;
+  text-align: right;
+}
+
+#projects .row{
+  margin: 5em 0;
+}

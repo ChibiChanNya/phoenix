@@ -20,7 +20,7 @@
           <div class="row margin-b-40">
             <div class="col-sm-6">
               <h2>Servicios</h2>
-              <p>Para desarrollar proyectos que aporten valor a nuestros clientes, orientamos nuestro conocimiento a
+              <p>Para desarrollar projectos que aporten valor a nuestros clientes, orientamos nuestro conocimiento a
                 entender sus necesidades y las de sus consumidores ofreciendo soluciones en:</p>
             </div>
           </div>
@@ -176,7 +176,7 @@
               <div class="col-md-5 col-sm-5 md-margin-b-60">
                 <div class="margin-t-50 margin-b-30">
                   <h2>¿Por qué elegirnos?</h2>
-                  <p>Todos nuestros proyectos son desarrollados por <span class="phoenix-text">equipos</span><span
+                  <p>Todos nuestros projectos son desarrollados por <span class="phoenix-text">equipos</span><span
                     class="development-text"> multidisciplinarios</span> integrados por profesionales que aman lo que
                     hacen.</p>
                   <p>Somos expertos en:</p>
@@ -193,9 +193,9 @@
                     <li><span class="phoenix-text">Innovación en</span><span class="development-text"> Negocios</span>
                     </li>
                   </ul>
-                  <p>Y aplicamos nuestro conocimiento en cada uno de los proyectos para ofrecer soluciones que aporte
+                  <p>Y aplicamos nuestro conocimiento en cada uno de los projectos para ofrecer soluciones que aporte
                     valor a tu negocio.</p>
-                  <p>Nuestra metodología para desarrollar proyectos va acompañada de un proceso de consultoría.</p>
+                  <p>Nuestra metodología para desarrollar projectos va acompañada de un proceso de consultoría.</p>
                 </div>
                 <!--<a href="#" class="btn-theme btn-theme-sm btn-white-bg text-uppercase">Explore</a>-->
               </div>
@@ -284,7 +284,7 @@
           <div class="row margin-b-40">
             <div class="col-sm-6">
               <h2><a href="https://futhub.com">FUTHUB</a></h2>
-              <p>FutHub fue reconocida como una de los 100 mejores proyectos de emprendimiento y desarrollo en
+              <p>FutHub fue reconocida como una de los 100 mejores projectos de emprendimiento y desarrollo en
                 Latinoamérica durante INC Acelerator 2017 del Tecnologico de Monterrey & Greater Phoenix Economic
                 Council.</p>
               <p>FUTHUB es una aplicación web de fútbol creada por los fundadores de <span
@@ -405,41 +405,98 @@
       </div>
 
       <!-- Clients -->
-      <div class="section-seperator">
-        <div class="content-lg container">
-          <h2>Nuestros Clientes</h2>
+      <div class="section-seperator" id="projects" >
+        <div class="content-lg container" >
+          <h2>Nuestros projectos</h2>
           <!-- Swiper Clients -->
-          <div class="logo-container">
-            <!--FIRST ROW -->
-            <div class="row">
-              <div class="logo col-3">
-                <img class="img-fluid" v-vpshow src="../assets/img/clients/afer-gris.png" alt="Logo AFTER Plomeria">
-              </div>
-              <div class="logo col-3">
-                <img class="img-fluid" v-vpshow src="../assets/img/clients/fitzgeral-gris.png"
-                     alt="Logo Fitzgerald Motorsport Co.">
-              </div>
-              <div class="logo col-3">
-                <img class="img-fluid" v-vpshow src="../assets/img/clients/green-gris.png" alt="Logo Green Pit">
-              </div>
-              <div class="logo col-3">
-                <img class="img-fluid" v-vpshow src="../assets/img/clients/40m2.png" alt="Logo 40M Fitness">
-              </div>
-            </div>
+          <!--<div class="logo-container">-->
+            <!--&lt;!&ndash;FIRST ROW &ndash;&gt;-->
             <!--<div class="row">-->
-            <!--<div class="logo col-3">-->
-            <!--<img class="img-fluid" src="../assets/img/clients/Logo-C15.png" alt="Corporativo C15 Logo">-->
+              <!--<div class="logo col-3">-->
+                <!--<img class="img-fluid" v-vpshow src="../assets/img/clients/afer-gris.png" alt="Logo AFTER Plomeria">-->
+              <!--</div>-->
+              <!--<div class="logo col-3">-->
+                <!--<img class="img-fluid" v-vpshow src="../assets/img/clients/fitzgeral-gris.png"-->
+                     <!--alt="Logo Fitzgerald Motorsport Co.">-->
+              <!--</div>-->
+              <!--<div class="logo col-3">-->
+                <!--<img class="img-fluid" v-vpshow src="../assets/img/clients/green-gris.png" alt="Logo Green Pit">-->
+              <!--</div>-->
+              <!--<div class="logo col-3">-->
+                <!--<img class="img-fluid" v-vpshow src="../assets/img/clients/40m2.png" alt="Logo 40M Fitness">-->
+              <!--</div>-->
             <!--</div>-->
-            <!--<div class="logo col-3">-->
-            <!--<img class="img-fluid" src="../assets/img/clients/concepto.png" alt="Concepto 15 logo">-->
-            <!--</div>-->
-            <!--<div class="logo col-3">-->
-            <!--<img class="img-fluid" src="../assets/img/clients/betco.png" alt="Betco Logo">-->
-            <!--</div>-->
-            <!--</div>-->
-            <!-- End Swiper Wrapper -->
-          </div>
+          <!--</div>-->
           <!-- End Swiper Clients -->
+          
+          <!-- BEGIN PROJECT SCREENSHOTS-->
+          <!--FUTHUB-->
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class="projects-title phoenix-text"><a href="https://www.futhub.com">FUTHUB</a></h3>
+            </div>
+            <div class="col-md-8">
+              <div class="development-text projects-desc">Plataforma que conecta jugadores entrenadores y clubes de fútbol profesional.</div>
+            </div>
+            <div class="col-8 flex" style="margin:auto">
+              <img class="img-fluid" src="../assets/img/projects/Futhub2-compressor.png" alt="FutHub app and website screenshots">
+            </div>
+          </div>
+
+          <!--PROMTEL-->
+          <div class="row">
+            <div class="col-md-3">
+              <h3 class="projects-title phoenix-text"><a href="http://promtel.phoenixdevelopment.mx">PROMTEL</a></h3>
+            </div>
+            <div class="col-md-9">
+              <div class="development-text projects-desc">Propuesta para Sitio Informativo del Organismo Promotor de Inversiones en Telecomunicaciones. Gobierno Federal.</div>
+            </div>
+            <div class="col-8 flex" style="margin:auto">
+              <img class="img-fluid" src="../assets/img/projects/Promtel-compressor.png" alt="PROMTEL website screenshots">
+            </div>
+          </div>
+
+
+          <!--AFER-->
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class="projects-title phoenix-text"><a href="http://afer.phoenixdevelopment.mx">AFER</a></h3>
+            </div>
+            <div class="col-md-8">
+              <div class="development-text projects-desc">Sitio Informativo AFER PLOMERÍA ESPECIALIZADA empresa de la Cd. de Chihuahua.</div>
+            </div>
+            <div class="col-8 flex" style="margin:auto">
+              <img class="img-fluid" src="../assets/img/projects/AFER-compressor.png" alt="AFER Plomeria Especializada Website">
+            </div>
+          </div>
+
+          <!--QUINIELA-->
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class="projects-title phoenix-text"><a href="http://quiniela.phoenixdevelopment.mx">QUINIELA RUSIA 2018</a></h3>
+            </div>
+            <div class="col-md-8">
+              <div class="development-text projects-desc">Quiniela deportiva organizada para empleados de corporativos durante la Copa Mundial Rusia 2018.</div>
+            </div>
+            <div class="col-8 flex" style="margin:auto">
+              <img class="img-fluid" src="../assets/img/projects/Quiniela-compressor.png" alt="Website screenshots for Quiniela Russia FIFA World Cup 2018">
+            </div>
+          </div>
+
+          <!--GREEN PIT-->
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class="projects-title phoenix-text"><a href="http://greenpit.mx">GREEN PIT</a></h3>
+            </div>
+            <div class="col-md-8">
+              <div class="development-text projects-desc">Máquinas francesas para descarbonizar por medio de hidrógeno el motor de los automóviles.</div>
+            </div>
+            <div class="col-8 flex" style="margin:auto">
+              <img class="img-fluid" src="../assets/img/projects/GREENPIT-compressor.png" alt="Website screenshots for Green Pit engine decarbonization services">
+            </div>
+          </div>
+
+
         </div>
       </div>
 
