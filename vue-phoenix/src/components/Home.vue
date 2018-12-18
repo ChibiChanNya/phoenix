@@ -285,7 +285,7 @@
         <div class="content-md container">
           <div class="row margin-b-40">
             <div class="col-sm-6">
-              <h2><a href="https://futhub.com">FUTHUB</a></h2>
+              <h2><a href="http://futhub.com">FUTHUB</a></h2>
               <p>FutHub fue reconocida como una de los 100 mejores proyectos de emprendimiento y desarrollo en
                 Latinoamérica durante INC Acelerator 2017 del Tecnologico de Monterrey & Greater Phoenix Economic
                 Council.</p>

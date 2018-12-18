@@ -1486,11 +1486,11 @@ div.projects-desc{
   height: 30px;
 }
 
-#projects .carousel-control-next:focus,
-#projects .carousel-control-next:hover,
-#projects .carousel-control-prev:focus,
-#projects .carousel-control-prev:hover{
-  color: red;
+@media(min-width:1024px){
+  #projects .carousel-control-next,
+  #projects .carousel-control-prev{
+    margin-top: 50px;
+  }
 }
 
 #projects img{
