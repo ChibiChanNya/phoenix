@@ -1473,9 +1473,22 @@ h3.projects-title{
 }
 div.projects-desc{
   margin-top:7px;
-  text-align: right;
 }
 
-#projects .row{
-  margin: 5em 0;
+#projects .carousel-indicators{
+  width:100%;
+  bottom:-40px;
+  margin: 0;
+}
+
+#projects .carousel-control-next-icon, #projects .carousel-control-prev-icon{
+  width: 30px;
+  height: 30px;
+}
+
+#projects .carousel-control-next:focus,
+#projects .carousel-control-next:hover,
+#projects .carousel-control-prev:focus,
+#projects .carousel-control-prev:hover{
+  color: red;
 }
