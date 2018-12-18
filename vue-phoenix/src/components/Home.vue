@@ -430,7 +430,7 @@
                 </div>
                 <div>
                   <div class="development-text projects-desc">Plataforma que conecta jugadores entrenadores y clubes de
-                    fútbol profesional.
+                    fútbol profesional.<br class="mobile-only"><br>
                   </div>
                 </div>
                 <div class="col-md-8 flex" style="margin:auto">

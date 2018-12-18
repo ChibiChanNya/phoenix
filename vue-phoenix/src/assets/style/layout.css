@@ -1492,3 +1492,7 @@ div.projects-desc{
 #projects .carousel-control-prev:hover{
   color: red;
 }
+
+#projects img{
+  margin: 2em 0;
+}
