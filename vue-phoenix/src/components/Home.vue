@@ -407,7 +407,7 @@
       </div>
 
       <!-- Clients -->
-      <div class="section-seperator" id="projects">
+      <div class="section-seperator" id="projects" style="padding-bottom: 50px">
         <div class="content-lg container">
           <h2>Nuestros projectos</h2>
 
