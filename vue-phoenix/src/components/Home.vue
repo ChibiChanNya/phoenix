@@ -21,7 +21,7 @@
           <div class="row margin-b-40">
             <div class="col-sm-6">
               <h2>Servicios</h2>
-              <p>Para desarrollar projectos que aporten valor a nuestros clientes, orientamos nuestro conocimiento a
+              <p>Para desarrollar proyectos que aporten valor a nuestros clientes, orientamos nuestro conocimiento a
                 entender sus necesidades y las de sus consumidores ofreciendo soluciones en:</p>
             </div>
           </div>
@@ -178,7 +178,7 @@
               <div class="col-md-5 col-sm-5 md-margin-b-60">
                 <div class="margin-t-50 margin-b-30">
                   <h2>¿Por qué elegirnos?</h2>
-                  <p>Todos nuestros projectos son desarrollados por <span class="phoenix-text">equipos</span><span
+                  <p>Todos nuestros proyectos son desarrollados por <span class="phoenix-text">equipos</span><span
                     class="development-text"> multidisciplinarios</span> integrados por profesionales que aman lo que
                     hacen.</p>
                   <p>Somos expertos en:</p>
@@ -195,9 +195,9 @@
                     <li><span class="phoenix-text">Innovación en</span><span class="development-text"> Negocios</span>
                     </li>
                   </ul>
-                  <p>Y aplicamos nuestro conocimiento en cada uno de los projectos para ofrecer soluciones que aporte
+                  <p>Y aplicamos nuestro conocimiento en cada uno de los proyectos para ofrecer soluciones que aporte
                     valor a tu negocio.</p>
-                  <p>Nuestra metodología para desarrollar projectos va acompañada de un proceso de consultoría.</p>
+                  <p>Nuestra metodología para desarrollar proyectos va acompañada de un proceso de consultoría.</p>
                 </div>
                 <!--<a href="#" class="btn-theme btn-theme-sm btn-white-bg text-uppercase">Explore</a>-->
               </div>
@@ -286,7 +286,7 @@
           <div class="row margin-b-40">
             <div class="col-sm-6">
               <h2><a href="https://futhub.com">FUTHUB</a></h2>
-              <p>FutHub fue reconocida como una de los 100 mejores projectos de emprendimiento y desarrollo en
+              <p>FutHub fue reconocida como una de los 100 mejores proyectos de emprendimiento y desarrollo en
                 Latinoamérica durante INC Acelerator 2017 del Tecnologico de Monterrey & Greater Phoenix Economic
                 Council.</p>
               <p>FUTHUB es una aplicación web de fútbol creada por los fundadores de <span
@@ -409,10 +409,10 @@
       <!-- Clients -->
       <div class="section-seperator" id="projects" style="padding-bottom: 50px">
         <div class="content-lg container">
-          <h2>Nuestros projectos</h2>
+          <h2>Nuestros proyectos</h2>
 
           <!-- BEGIN PROJECT SCREENSHOTS CAROUSEL-->
-          <div id="projectsCarousel" class="carousel slide" data-ride="carousel">
+          <div id="projectsCarousel" class="carousel slide" data-ride="carousel" data-wrap="true">
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#projectsCarousel" data-slide-to="0" class="active"></li>
@@ -433,7 +433,7 @@
                     fútbol profesional.
                   </div>
                 </div>
-                <div class="col-8 flex" style="margin:auto">
+                <div class="col-md-8 flex" style="margin:auto">
                   <a href="http://www.futhub.com" target="_blank"><img class="img-fluid" src="../assets/img/projects/Futhub2-compressor.png"
                                                        alt="FutHub app and website screenshots"></a>
                 </div>
@@ -450,7 +450,7 @@
                     Inversiones en Telecomunicaciones. Gobierno Federal.
                   </div>
                 </div>
-                <div class="col-8 flex" style="margin:auto">
+                <div class="col-md-8 flex" style="margin:auto">
                   <a href="http://promtel.phoenixdevelopment.mx" target="_blank"><img class="img-fluid" src="../assets/img/projects/Promtel-compressor.png"
                                                                                       alt="PROMTEL website screenshots"></a>
                 </div>
@@ -468,7 +468,7 @@
                     Cd. de Chihuahua.
                   </div>
                 </div>
-                <div class="col-8 flex" style="margin:auto">
+                <div class="col-md-8 flex" style="margin:auto">
                   <a href="http://afer.phoenixdevelopment.mx" target="_blank"><img class="img-fluid" src="../assets/img/projects/AFER-compressor.png"
                                                                                    alt="AFER Plomeria Especializada Website"></a>
                 </div>
@@ -486,7 +486,7 @@
                     durante la Copa Mundial Rusia 2018.
                   </div>
                 </div>
-                <div class="col-8 flex" style="margin:auto">
+                <div class="col-md-8 flex" style="margin:auto">
                   <a href="http://quiniela.phoenixdevelopment.mx" target="_blank"><img class="img-fluid" src="../assets/img/projects/Quiniela-compressor.png"
                                                                                        alt="Website screenshots for Quiniela Russia FIFA World Cup 2018"></a>
                 </div>
@@ -502,7 +502,7 @@
                     hidrógeno el motor de los automóviles.
                   </div>
                 </div>
-                <div class="col-8 flex" style="margin:auto">
+                <div class="col-md-8 flex" style="margin:auto">
                   <a href="http://greenpit.mx" target="_blank"><img class="img-fluid" src="../assets/img/projects/GREENPIT-compressor.png"
                                                                      alt="Website screenshots for Green Pit engine decarbonization services"></a>
                 </div>
