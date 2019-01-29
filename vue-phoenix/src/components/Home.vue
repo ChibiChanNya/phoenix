@@ -77,7 +77,7 @@
                     <li>Posicionamiento Web SEO/SEM</li>
                     <li>Campañas publicitarias</li>
                     <li>Social Media</li>
-                    <li>Estrategia de contenidos</li>
+                    <li>Marketing de contenidos</li>
                   </ul>
                 </div>
                 <!--<a href="#" class="content-wrapper-link"></a>    -->

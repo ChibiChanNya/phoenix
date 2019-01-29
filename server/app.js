@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(cors());
 
 
-//Your api key, from Mailgun’s Control Panel
+//Your api key, from Mail-gun’s Control Panel
 let api_key = process.env.MAILGUN_KEY;
 
 //Your domain, from the Mailgun Control Panel
