@@ -662,7 +662,6 @@
 </script>
 
 <style scoped>
-
   @import '../assets/style/animate.css';
   @import '../assets/vendor/swiper/css/swiper.min.css';
 
